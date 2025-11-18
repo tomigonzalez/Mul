@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///E:/Proyectos/Mul/mul-front/app/page.tsx"],"sourcesContent":["import \"../app/globals.css\";\n\nexport default function Home() {\n  return (\n    <div className=\"flex min-h-full items-center justify-center bg-zinc-50 font-sans dark:bg-black\">\n      <main className=\"flex min-h-full w-full max-w-3xl flex-col items-center justify-between  bg-white dark:bg-black sm:items-start\">\n        <div className=\"w-full h-80 bg-amber-700\" />\n        <div className=\"w-full h-20 bg-amber-200\" />\n      </main>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;;;AAEe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC;YAAK,WAAU;;8BACd,8OAAC;oBAAI,WAAU;;;;;;8BACf,8OAAC;oBAAI,WAAU;;;;;;;;;;;;;;;;;AAIvB"}}]
+}

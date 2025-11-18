@@ -1,0 +1,109 @@
+
+
+.menu-item:hover {
+  height: auto;
+}
+
+.menu-item {
+  overflow: visible;
+    
+}
+
+/* ---------------------------------------------------- */
+/* ::BEFORE (La Línea Inclinada Superior - PARTE FIJA) */
+/* ---------------------------------------------------- */
+.menu-item::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0; 
+    width: 4px;
+    height: 28px; 
+    background: white;
+    transform: skewX(30deg);
+    transform-origin: top left;
+    transition: background 0.3s ease; 
+}
+
+/* ---------------------------------------------------- */
+/* ::AFTER (La Línea Recta Inferior - PARTE EXPANDIBLE) */
+/* ---------------------------------------------------- */
+.menu-item.has-children::after {
+    content: "";
+    position: absolute;
+    top: 28px; 
+    left: 16.5px;
+    width: 3.999px;
+    height: 0; 
+    background: white;    
+    transition: height 0.35s ease;
+}
+
+/* ---------------------------------------------------- */
+/* EFECTO HOVER */
+/* ---------------------------------------------------- */
+
+.menu-item:hover::before,
+.menu-item:hover::after {
+    background: yellow;
+    
+}
+
+.menu-item.has-children:hover::after {
+  height: var(--submenu-height);
+}
+
+.submenu {
+  position: absolute;
+  z-index: 22;
+  display: none;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px 10px;
+          
+}
+
+
+/* Los subitems aparecen SOLO cuando la línea baja */
+.menu-item:hover .submenu {
+  display: flex;
+}
+
+
+
+/* Item con children → borde transparente en hover */
+.menu-item.has-children:hover > .menu-link {
+  border-bottom-color: transparent !important;
+}
+
+/* Item sin children → borde amarillo en hover */
+.menu-item:not(.has-children):hover > .menu-link {
+  border-bottom-color: yellow !important;
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(5px); 
+  background-color: rgba(0,0,0,0.2);
+  z-index: 10; 
+  pointer-events: none; 
+  opacity: 0;                 /* invisible por defecto */
+  transition: opacity 0.3s ease; /* transición suave */
+}
+
+.overlay.active {
+  opacity: 1; /* visible cuando hay item activo */
+}
+
+
+
+.menu-item:hover .submenu {
+  display: flex;
+  z-index: 30; /* encima del overlay */
+}
+
