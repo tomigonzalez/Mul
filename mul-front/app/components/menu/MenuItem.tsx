@@ -22,7 +22,7 @@ const MenuItem = ({ item }: { item: itemData }) => {
       }
     >
       <Link
-        className="menu-link border-b-4 pr-4 pb-[0.2px] text-xl"
+        className="menu-link border-b-4 pl-2 pr-4 pb-[0.2px] text-xl"
         href={href ?? "#"}
       >
         {label}
