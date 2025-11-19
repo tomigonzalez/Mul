@@ -14,12 +14,6 @@ const ConstructionPage = () => {
         </p>
       </div>
 
-      <div className="mt-6 flex justify-center w-full">
-        <div className="w-30 h-30 md:w-42 md:h-42 bg-white rounded-2xl shadow-xl flex items-center justify-center">
-          <p className="text-black font-semibold text-lg md:text-xl">QR</p>
-        </div>
-      </div>
-
       {/* Botón WhatsApp flotante en esquina (reemplaza el número abajo sin signos ni espacios) */}
       {/* Ejemplo: href="https://wa.me/5491123456789" */}
       <a
