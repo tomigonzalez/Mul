@@ -216,7 +216,7 @@ const ConstructionPage = ()=>{
         className: "w-full min-h-screen overflow-hidden md:overflow-auto bg-black text-white flex flex-col items-center  gap-6 justify-start pt-12 md:pt-10",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex flex-col items-center text-center max-w-lg",
+                className: "flex flex-col items-center text-center max-w-xl",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$maintenance$2f$LogoTriangulo$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                         width: 300,
@@ -228,18 +228,18 @@ const ConstructionPage = ()=>{
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                         className: "text-xl md:text-3xl font-bold mt-8 mb-3 tracking-tight",
-                        children: "¡Estamos construyendo nuestra web!"
+                        children: "En un mundo que te grita quién deberías ser, el silencio te recuerda quién ya eres."
                     }, void 0, false, {
                         fileName: "[project]/app/components/maintenance/ConstructionPage.tsx",
                         lineNumber: 9,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-lg md:text-xl italic text-gray-400",
-                        children: "Regresa pronto."
+                        className: "text-lg md:text-xl  text-gray-400",
+                        children: "Estamos levantando el templo digital del Monje."
                     }, void 0, false, {
                         fileName: "[project]/app/components/maintenance/ConstructionPage.tsx",
-                        lineNumber: 12,
+                        lineNumber: 13,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
@@ -249,7 +249,7 @@ const ConstructionPage = ()=>{
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                href: "https://wa.me/5490000000000",
+                href: "https://wa.me/5492915235363",
                 target: "_blank",
                 rel: "noopener noreferrer",
                 "aria-label": "Contactar por WhatsApp",
@@ -260,13 +260,13 @@ const ConstructionPage = ()=>{
                         className: "w-7 h-7 ml-4"
                     }, void 0, false, {
                         fileName: "[project]/app/components/maintenance/ConstructionPage.tsx",
-                        lineNumber: 27,
+                        lineNumber: 28,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/maintenance/ConstructionPage.tsx",
-                lineNumber: 19,
+                lineNumber: 20,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]

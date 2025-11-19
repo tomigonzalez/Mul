@@ -4,20 +4,21 @@ import { MessageCircle } from "lucide-react";
 const ConstructionPage = () => {
   return (
     <div className="w-full min-h-screen overflow-hidden md:overflow-auto bg-black text-white flex flex-col items-center  gap-6 justify-start pt-12 md:pt-10">
-      <div className="flex flex-col items-center text-center max-w-lg">
+      <div className="flex flex-col items-center text-center max-w-xl">
         <LogoTriangulo width={300} height={340} />
         <h1 className="text-xl md:text-3xl font-bold mt-8 mb-3 tracking-tight">
-          ¡Estamos construyendo nuestra web!
+          En un mundo que te grita quién deberías ser, el silencio te recuerda
+          quién ya eres.
         </h1>
-        <p className="text-lg md:text-xl italic text-gray-400">
-          Regresa pronto.
+        <p className="text-lg md:text-xl  text-gray-400">
+          Estamos levantando el templo digital del Monje.
         </p>
       </div>
 
       {/* Botón WhatsApp flotante en esquina (reemplaza el número abajo sin signos ni espacios) */}
       {/* Ejemplo: href="https://wa.me/5491123456789" */}
       <a
-        href="https://wa.me/5490000000000"
+        href="https://wa.me/5492915235363"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Contactar por WhatsApp"
