@@ -37,7 +37,6 @@ export default function RootLayout({
     );
   }
 
-  // 2. Renderizado Normal
   return (
     <html lang="en">
       <body
