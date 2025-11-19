@@ -573,3 +573,4 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [01:12:46.384] Server  LOG        Reload env: .env.local
 [01:12:46.513] Server  LOG      ✓ Compiled in 129ms
 [01:12:46.818] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:22:43.809] Server  LOG      ✓ Compiled in 85ms

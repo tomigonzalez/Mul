@@ -14,7 +14,6 @@ const ConstructionPage = () => {
         </p>
       </div>
 
-      {/* Contenedor QR */}
       <div className="mt-12 flex justify-center w-full">
         <div className="w-30 h-30 md:w-50 md:h-50 bg-white rounded-2xl shadow-xl flex items-center justify-center">
           <p className="text-black font-semibold text-lg md:text-xl">QR</p>
