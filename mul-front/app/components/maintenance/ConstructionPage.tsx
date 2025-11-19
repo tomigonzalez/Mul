@@ -4,7 +4,7 @@ import { MessageCircle } from "lucide-react";
 const ConstructionPage = () => {
   return (
     <div className="w-full min-h-screen overflow-hidden md:overflow-auto bg-black text-white flex flex-col items-center  gap-6 justify-start pt-12 md:pt-10">
-      <div className="flex flex-col items-center text-center max-w-xl">
+      <div className="flex flex-col items-center text-center max-w-lg md:max-w-xl">
         <LogoTriangulo width={300} height={340} />
         <h1 className="text-xl md:text-3xl font-bold mt-8 mb-3 tracking-tight">
           En un mundo que te grita quién deberías ser, el silencio te recuerda
