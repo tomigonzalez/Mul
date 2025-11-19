@@ -29,7 +29,7 @@ const ConstructionPage = () => {
         aria-label="Contactar por WhatsApp"
         className="fixed  bottom-6 right-6 md:bottom-8 md:right-8 bg-green-500 hover:bg-green-600 text-black p-4 rounded-full shadow-xl flex items-center justify-center transition-all duration-300"
       >
-        Contactanos
+        Contactame
         <MessageCircle className="w-7 h-7 ml-4" />
       </a>
     </div>
