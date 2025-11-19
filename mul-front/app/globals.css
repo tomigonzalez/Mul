@@ -25,3 +25,25 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
+/* ./globals.css */
+
+/* Animación de llenado para el SVG */
+.logo-relleno-blanco {
+    /* Estado inicial: Oculto desde abajo */
+    clip-path: inset(100% 0 0 0); 
+    /* La animación se repetirá infinitamente, alternando entre lleno y vacío */
+    animation: llenarLogo 3s ease-in-out infinite alternate; 
+}
+
+@keyframes llenarLogo {
+    0% {
+        /* Completamente vacío */
+        clip-path: inset(100% 0 0 0);
+    }
+    100% {
+        /* Completamente lleno */
+        clip-path: inset(0% 0 0 0); 
+    }
+}

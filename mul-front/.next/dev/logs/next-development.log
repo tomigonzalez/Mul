@@ -1,1947 +1,566 @@
-[00:00:29.279] Server  LOG      ✓ Ready in 20.7s
-[00:00:32.365] Server  LOG      ○ Compiling / ...
-[00:00:46.192] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <li> li 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <body className="geist_a715...">
-                            <Menu>
-                              <div>
-                              <nav className="p-4 w-full...">
-                                <ul className="flex flex-...">
->                                 <li onMouseEnter={function onMouseEnter} onMouseLeave={function onMouseLeave}>
-                                    <MenuItem item={{id:1,label:"Da...", ...}}>
->                                     <li
->                                       className="menu-item relative pr-4 pl-4 has-children"
->                                       style={{--submenu-height:"6rem"}}
->                                     >
-                                  ...
-                            ...
-                  ...
-
-[00:00:46.192] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. li <li>
-[00:00:46.192] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[00:08:31.675] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.680] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.694] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.703] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.709] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.714] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.727] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.734] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.745] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.748] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.758] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.763] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.770] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.784] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.815] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.822] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.846] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.855] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.861] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.868] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.874] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.882] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.885] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.889] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.898] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.904] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.918] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.921] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.927] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.932] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.938] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.941] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.945] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.954] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.958] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.962] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.967] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.972] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.975] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.978] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.981] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.986] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.990] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.992] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:31.996] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:32.000] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:32.004] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:32.006] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:32.011] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:32.023] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:32.026] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:32.030] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:32.034] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:32.044] Server  ERROR    ⨯ ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:32.047] Server  LOG      ✓ Compiled in 203ms
-[00:08:32.251] Browser ERROR   ./app/components/SincronarioCard.tsx:3:1
-Module not found: Can't resolve '@/utils/sincronario'
-  1 | "use client";
-  2 |
-> 3 | import { get13Moon, getLunarPhase } from "@/utils/sincronario";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import React from "react";
-  5 |
-  6 | interface SincronarioData {
-
-Import map: aliased to relative './utils/sincronario' inside of [project]/
-
-Import trace:
-  Server Component:
-    ./app/components/SincronarioCard.tsx
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:08:38.701] Server  LOG      ✓ Compiled in 58ms
-[00:08:45.056] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <li> li 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <body className="geist_a715...">
-                            <Menu>
-                              <div>
-                              <nav className="p-4 w-full...">
-                                <ul className="flex flex-...">
->                                 <li onMouseEnter={function onMouseEnter} onMouseLeave={function onMouseLeave}>
-                                    <MenuItem item={{id:1,label:"Da...", ...}}>
->                                     <li
->                                       className="menu-item relative pr-4 pl-4 has-children"
->                                       style={{--submenu-height:"6rem"}}
->                                     >
-                                  ...
-                            ...
-                  ...
-
-[00:08:45.056] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. li <li>
-[00:08:45.056] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[00:09:17.061] Server  LOG      ✓ Compiled in 73ms
-[00:09:19.483] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <li> li 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <body className="geist_a715...">
-                            <Menu>
-                              <div>
-                              <nav className="p-4 w-full...">
-                                <ul className="flex flex-...">
->                                 <li onMouseEnter={function onMouseEnter} onMouseLeave={function onMouseLeave}>
-                                    <MenuItem item={{id:1,label:"Da...", ...}}>
->                                     <li
->                                       className="menu-item relative pr-4 pl-4 has-children"
->                                       style={{--submenu-height:"6rem"}}
->                                     >
-                                  ...
-                            ...
-                  ...
-
-[00:09:19.483] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. li <li>
-[00:09:19.483] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[00:09:30.769] Server  LOG      ✓ Compiled in 44ms
-[00:09:38.476] Server  LOG      ✓ Compiled in 73ms
-[00:09:42.363] Server  LOG      ✓ Compiled in 56ms
-[00:09:43.781] Server  LOG      ✓ Compiled in 138ms
-[00:09:53.425] Server  LOG      ✓ Compiled in 50ms
-[00:15:38.252] Browser ERROR   ./app/page.tsx:10:26
+[00:00:33.602] Server  LOG      ✓ Ready in 22.2s
+[00:03:27.624] Server  LOG      ○ Compiling / ...
+[00:04:22.966] Browser WARN    Image with src "http://localhost:3000/LogoTriangulo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:04:43.125] Browser ERROR   uncaughtError: Error: Image with src "/LogoTriangulo.svg" has both "width" and "fill" properties. Only one should be used.
+[00:04:49.812] Server  LOG      ✓ Compiled in 385ms
+[00:05:22.607] Browser WARN    Image with src "http://localhost:3000/LogoTriangulo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:16:57.063] Server  LOG      ✓ Compiled in 129ms
+[00:18:22.443] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\[root-of-the-server]__cdb65c86._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:22.449] Server  ERROR    ⨯ ReferenceError: LogoTriangulo is not defined
+[00:18:22.465] Server  LOG      ✓ Compiled in 363ms
+[00:18:22.556] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\[root-of-the-server]__cdb65c86._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:22.557] Server  ERROR    ⨯ ReferenceError: LogoTriangulo is not defined
+[00:18:23.357] Browser ERROR   uncaughtError: ReferenceError: LogoTriangulo is not defined
+[00:18:28.767] Server  LOG      ✓ Compiled in 193ms
+[00:24:08.735] Browser ERROR   ./app/components/maintenance/ConstructionPage.tsx:19:14
 Parsing ecmascript source code failed
-   8 |       <main className="flex min-h-full w-full max-w-3xl flex-col items-center justify-between  bg-white dark:bg-black sm:items-start">
-   9 |         <div className="w-full h-20 bg-amber-200">
-> 10 |           <Image src={} />
-     |                          ^
-  11 |         </div>
-  12 |         <div className="w-full flex h-full z-30">
-  13 |           <SincronarioCard />
-
-Expression expected
-[00:15:49.251] Browser ERROR   ./app/page.tsx:10:26
-Parsing ecmascript source code failed
-   8 |       <main className="flex min-h-full w-full max-w-3xl flex-col items-center justify-between  bg-white dark:bg-black sm:items-start">
-   9 |         <div className="w-full h-20 bg-amber-200">
-> 10 |           <Image src={} />
-     |                          ^
-  11 |         </div>
-  12 |         <div className="w-full flex h-full z-30">
-  13 |           <SincronarioCard />
-
-Expression expected
-[00:15:53.251] Browser ERROR   ./app/page.tsx:10:26
-Parsing ecmascript source code failed
-   8 |       <main className="flex min-h-full w-full max-w-3xl flex-col items-center justify-between  bg-white dark:bg-black sm:items-start">
-   9 |         <div className="w-full h-20 bg-amber-200">
-> 10 |           <Image src={} />
-     |                          ^
-  11 |         </div>
-  12 |         <div className="w-full flex h-full z-30">
-  13 |           <SincronarioCard />
-
-Expression expected
-[00:16:05.259] Browser ERROR   uncaughtError: Error: Image with src "../public/logo.png" is missing required "width" property.
-[00:16:18.971] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\node_modules_e6e93863._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:16:18.978] Server  ERROR    ⨯ Error: Image with src "../public/logo.png" has invalid "width" property. Expected a numeric value in pixels but received "full".
-[00:16:19.896] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <li> li 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <body className="geist_a715...">
-                            <Menu>
-                              <div>
-                              <nav className="p-4 w-full...">
-                                <ul className="flex flex-...">
->                                 <li onMouseEnter={function onMouseEnter} onMouseLeave={function onMouseLeave}>
-                                    <MenuItem item={{id:1,label:"Da...", ...}}>
->                                     <li
->                                       className="menu-item relative pr-4 pl-4 has-children"
->                                       style={{--submenu-height:"6rem"}}
->                                     >
-                                  ...
-                            ...
-                  ...
-
-[00:16:19.896] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. li <li>
-[00:16:19.896] Browser ERROR   uncaughtError: Error: Image with src "../public/logo.png" has invalid "width" property. Expected a numeric value in pixels but received "full".
-[00:16:28.312] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\node_modules_e6e93863._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:16:28.313] Server  ERROR    ⨯ Error: Image with src "../public/logo.png" is missing required "height" property.
-[00:16:28.805] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <li> li 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <body className="geist_a715...">
-                            <Menu>
-                              <div>
-                              <nav className="p-4 w-full...">
-                                <ul className="flex flex-...">
->                                 <li onMouseEnter={function onMouseEnter} onMouseLeave={function onMouseLeave}>
-                                    <MenuItem item={{id:1,label:"Da...", ...}}>
->                                     <li
->                                       className="menu-item relative pr-4 pl-4 has-children"
->                                       style={{--submenu-height:"6rem"}}
->                                     >
-                                  ...
-                            ...
-                  ...
-
-[00:16:28.805] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. li <li>
-[00:16:28.805] Browser ERROR   uncaughtError: Error: Image with src "../public/logo.png" is missing required "height" property.
-[00:16:35.039] Server  LOG      ✓ Compiled in 77ms
-[00:16:35.286] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\node_modules_e6e93863._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:16:35.287] Server  ERROR    ⨯ Error: Image with src "../public/logo.png" is missing required "height" property.
-[00:16:35.827] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <li> li 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <body className="geist_a715...">
-                            <Menu>
-                              <div>
-                              <nav className="p-4 w-full...">
-                                <ul className="flex flex-...">
->                                 <li onMouseEnter={function onMouseEnter} onMouseLeave={function onMouseLeave}>
-                                    <MenuItem item={{id:1,label:"Da...", ...}}>
->                                     <li
->                                       className="menu-item relative pr-4 pl-4 has-children"
->                                       style={{--submenu-height:"6rem"}}
->                                     >
-                                  ...
-                            ...
-                  ...
-
-[00:16:35.828] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. li <li>
-[00:16:35.828] Browser ERROR   uncaughtError: Error: Image with src "../public/logo.png" is missing required "height" property.
-[00:16:40.443] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\node_modules_e6e93863._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:16:40.444] Server  ERROR    ⨯ Error: Image with src "../public/logo.png" is missing required "height" property.
-[00:16:41.092] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <li> li 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <body className="geist_a715...">
-                            <Menu>
-                              <div>
-                              <nav className="p-4 w-full...">
-                                <ul className="flex flex-...">
->                                 <li onMouseEnter={function onMouseEnter} onMouseLeave={function onMouseLeave}>
-                                    <MenuItem item={{id:1,label:"Da...", ...}}>
->                                     <li
->                                       className="menu-item relative pr-4 pl-4 has-children"
->                                       style={{--submenu-height:"6rem"}}
->                                     >
-                                  ...
-                            ...
-                  ...
-
-[00:16:41.092] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. li <li>
-[00:16:41.092] Browser ERROR   uncaughtError: Error: Image with src "../public/logo.png" is missing required "height" property.
-[00:16:44.763] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\node_modules_e6e93863._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:16:44.764] Server  ERROR    ⨯ Error: Image with src "../public/logo.png" is missing required "height" property.
-[00:16:45.206] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <li> li 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <body className="geist_a715...">
-                            <Menu>
-                              <div>
-                              <nav className="p-4 w-full...">
-                                <ul className="flex flex-...">
->                                 <li onMouseEnter={function onMouseEnter} onMouseLeave={function onMouseLeave}>
-                                    <MenuItem item={{id:1,label:"Da...", ...}}>
->                                     <li
->                                       className="menu-item relative pr-4 pl-4 has-children"
->                                       style={{--submenu-height:"6rem"}}
->                                     >
-                                  ...
-                            ...
-                  ...
-
-[00:16:45.206] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. li <li>
-[00:16:45.206] Browser ERROR   uncaughtError: Error: Image with src "../public/logo.png" is missing required "height" property.
-[00:17:16.176] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\node_modules_e6e93863._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:17:16.177] Server  ERROR    ⨯ Error: Image with src "../public/logo.png" is missing required "height" property.
-[00:17:16.620] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <li> li 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <body className="geist_a715...">
-                            <Menu>
-                              <div>
-                              <nav className="p-4 w-full...">
-                                <ul className="flex flex-...">
->                                 <li onMouseEnter={function onMouseEnter} onMouseLeave={function onMouseLeave}>
-                                    <MenuItem item={{id:1,label:"Da...", ...}}>
->                                     <li
->                                       className="menu-item relative pr-4 pl-4 has-children"
->                                       style={{--submenu-height:"6rem"}}
->                                     >
-                                  ...
-                            ...
-                  ...
-
-[00:17:16.620] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. li <li>
-[00:17:16.620] Browser ERROR   uncaughtError: Error: Image with src "../public/logo.png" is missing required "height" property.
-[00:17:43.319] Server  LOG      ✓ Compiled in 92ms
-[00:17:44.251] Browser ERROR   ./app/components/menu/Menu.tsx:24:11
-Parsing ecmascript source code failed
-  22 |               <MenuItem item={item} />
-  23 |             </li>
-> 24 |           ))}
-     |           ^
-  25 |         </ul>
-  26 |       </nav>
-  27 |     </>
-
-Expected '</', got ')'
-
-Import trace:
-  Server Component:
-    ./app/components/menu/Menu.tsx
-    ./app/layout.tsx
-[00:17:45.732] Server  LOG      ✓ Compiled in 54ms
-[00:17:45.765] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:17:46.069] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\node_modules_e6e93863._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:17:46.070] Server  ERROR    ⨯ Error: Image with src "../public/logo.png" is missing required "height" property.
-[00:17:47.000] Browser ERROR   uncaughtError: Error: Image with src "../public/logo.png" is missing required "height" property.
-[00:18:03.625] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\node_modules_e6e93863._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:18:03.627] Server  ERROR   TypeError: Invalid URL
-[00:18:03.638] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\node_modules_e6e93863._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:18:03.642] Server  ERROR    ⨯ Error: Failed to parse src "../public/logo.png" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
-[00:18:04.140] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
-[00:18:04.140] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
-[00:18:04.140] Browser ERROR   uncaughtError: Error: Failed to parse src "../public/logo.png" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
-[00:18:05.617] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\node_modules_e6e93863._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:18:05.618] Server  ERROR   TypeError: Invalid URL
-[00:18:05.623] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\node_modules_e6e93863._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:18:05.624] Server  ERROR    ⨯ Error: Failed to parse src "../public/logo.png" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
-[00:18:06.054] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
-[00:18:06.054] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
-[00:18:06.054] Browser ERROR   uncaughtError: Error: Failed to parse src "../public/logo.png" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
-[00:18:17.023] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\node_modules_e6e93863._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:18:17.024] Server  ERROR   TypeError: Invalid URL
-[00:18:17.028] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\node_modules_e6e93863._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:18:17.029] Server  ERROR    ⨯ Error: Failed to parse src "../public/logo.png" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
-[00:18:17.454] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
-[00:18:17.454] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
-[00:18:17.454] Browser ERROR   uncaughtError: Error: Failed to parse src "../public/logo.png" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
-[00:18:51.013] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/public/logo.png" "received" null
-[00:19:07.258] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
-[00:19:07.258] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
-[00:19:07.258] Browser ERROR   uncaughtError: Error: Failed to parse src "public/logo.png" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
-[00:19:18.247] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/public/logo.png" "received" null
-[00:19:34.811] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
-[00:19:34.811] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
-[00:19:34.811] Browser ERROR   uncaughtError: Error: Failed to parse src "../public/logo.png" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
-[00:20:03.768] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/public/logo.png" "received" null
-[00:20:26.252] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:22:34.177] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:23:05.035] Browser WARN    Image with src "/logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:23:05.035] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:23:19.864] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:23:52.469] Browser WARN    Image with src "/logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:23:52.469] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:23:53.850] Browser WARN    Image with src "/logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:23:53.850] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:23:54.657] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:23:55.453] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:24:05.759] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:24:25.580] Server  LOG      ✓ Compiled in 116ms
-[00:24:35.039] Browser ERROR   uncaughtError: Error: Image with src "/logo1.png" has invalid "width" property. Expected a numeric value in pixels but received "100%".
-[00:24:39.556] Browser WARN    Image with src "/logo1.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:24:39.556] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:25:31.233] Server  LOG      ✓ Compiled in 40ms
-[00:25:44.833] Server  LOG      ✓ Compiled in 47ms
-[00:25:44.912] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. /profile
-[00:25:44.912] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. /profile
-[00:25:52.092] Server  LOG      ✓ Compiled in 42ms
-[00:25:52.162] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. /profile
-[00:25:52.163] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. /profile
-[00:25:55.623] Server  LOG      ✓ Compiled in 42ms
-[00:25:55.703] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. /profile
-[00:25:55.703] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. /profile
-[00:25:55.703] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. /profile
-[00:25:58.770] Server  LOG      ✓ Compiled in 71ms
-[00:25:58.801] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. /profile
-[00:25:58.801] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. /profile
-[00:25:58.801] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. /profile
-[00:26:00.880] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. /profile
-[00:26:00.880] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. /profile
-[00:26:00.880] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. /profile
-[00:26:00.880] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. /profile
-[00:26:00.881] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. /profile
-[00:26:00.881] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. /profile
-[00:26:03.648] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. /profile
-[00:26:03.648] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. /profile
-[00:26:03.648] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. /profile
-[00:26:03.648] Browser WARN    Image with src "/logo1.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:26:03.648] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:26:04.115] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. /profile
-[00:26:04.115] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. /profile
-[00:26:04.115] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. /profile
-[00:26:04.115] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. /profile
-[00:26:04.115] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. /profile
-[00:26:04.115] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. /profile
-[00:26:04.847] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. /profile
-[00:26:04.847] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. /profile
-[00:26:04.847] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. /profile
-[00:26:04.847] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:27:17.798] Server  LOG      ✓ Compiled in 36ms
-[00:27:41.526] Server  LOG      ✓ Compiled in 53ms
-[00:27:53.656] Server  LOG      ✓ Compiled in 47ms
-[00:28:05.487] Browser WARN    Image with src "/logo1.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:28:05.487] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[08:56:06.336] Server  LOG      ✓ Compiled in 193ms
-[08:56:09.566] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[08:56:33.899] Server  LOG      ✓ Compiled in 70ms
-[08:56:38.415] Server  LOG      ✓ Compiled in 114ms
-[08:57:54.720] Server  LOG      ✓ Compiled in 112ms
-[08:57:58.619] Server  LOG      ✓ Compiled in 133ms
-[08:57:59.982] Server  LOG      ✓ Compiled in 61ms
-[08:58:02.421] Server  LOG      ✓ Compiled in 67ms
-[08:58:04.064] Server  LOG      ✓ Compiled in 79ms
-[08:58:08.344] Server  LOG      ✓ Compiled in 66ms
-[08:58:10.707] Server  LOG      ✓ Compiled in 56ms
-[08:58:15.312] Server  LOG      ✓ Compiled in 68ms
-[08:58:17.811] Server  LOG      ✓ Compiled in 72ms
-[08:58:19.705] Server  LOG      ✓ Compiled in 66ms
-[08:58:22.891] Server  LOG      ✓ Compiled in 67ms
-[08:58:24.704] Server  LOG      ✓ Compiled in 49ms
-[08:58:30.392] Server  LOG      ✓ Compiled in 59ms
-[08:58:34.611] Server  LOG      ✓ Compiled in 65ms
-[08:58:37.160] Server  LOG      ✓ Compiled in 65ms
-[08:58:39.551] Server  LOG      ✓ Compiled in 64ms
-[08:58:41.685] Server  LOG      ✓ Compiled in 67ms
-[08:58:43.628] Server  LOG      ✓ Compiled in 69ms
-[08:58:45.600] Server  LOG      ✓ Compiled in 49ms
-[08:58:48.596] Server  LOG      ✓ Compiled in 69ms
-[08:58:50.389] Server  LOG      ✓ Compiled in 69ms
-[08:58:52.087] Server  LOG      ✓ Compiled in 66ms
-[08:58:55.088] Server  LOG      ✓ Compiled in 69ms
-[08:58:57.126] Server  LOG      ✓ Compiled in 48ms
-[08:58:58.526] Server  LOG      ✓ Compiled in 51ms
-[08:59:00.525] Server  LOG      ✓ Compiled in 73ms
-[08:59:15.361] Server  LOG      ✓ Compiled in 74ms
-[08:59:19.112] Server  LOG      ✓ Compiled in 51ms
-[08:59:23.932] Server  LOG      ✓ Compiled in 60ms
-[08:59:27.850] Server  LOG      ✓ Compiled in 70ms
-[08:59:30.496] Server  LOG      ✓ Compiled in 77ms
-[09:00:04.220] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[09:25:18.242] Server  LOG      ✓ Compiled in 76ms
-[09:25:22.103] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[09:25:47.576] Server  LOG      ✓ Compiled in 56ms
-[09:25:50.053] Browser WARN    Image with src "/logo1.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[09:25:50.053] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[09:38:32.875] Browser ERROR   ./app/page.tsx:15:5
-Parsing ecmascript source code failed
-  13 |         </div>
-  14 |       </main>
-> 15 |     </div>
-     |     ^
-  16 |   );
-  17 | }
-  18 |
-
-Expression expected
-[09:38:32.875] Browser ERROR   ./app/page.tsx:15:6
-Parsing ecmascript source code failed
-  13 |         </div>
-  14 |       </main>
-> 15 |     </div>
-     |      ^^^^^
-  16 |   );
-  17 | }
-  18 |
-
-Unterminated regexp literal
-[09:40:29.300] Browser ERROR   ./app/page.tsx:10:15
-Parsing ecmascript source code failed
-   8 |       <main className="flex h-full w-full max-w-3xl flex-col items-center justify-between  bg-white dark:bg-black sm:items-start">
-   9 |           <Image src="/logo1.png" width={600} height={300} alt={""} />
-> 10 |         </div>
-     |               ^
-> 11 |         <div className="w-full flex h-full z-30">
-     | ^^^^^^^^^
-  12 |           <SincronarioCard />
-  13 |         </div>
-  14 |       </main>
-
-Expected '</', got 'jsx text (
-        )'
-[09:41:31.354] Server  LOG      ✓ Compiled in 152ms
-[09:41:35.636] Server  LOG      ✓ Compiled in 83ms
-[09:41:42.671] Server  LOG      ✓ Compiled in 84ms
-[09:41:48.682] Server  LOG      ✓ Compiled in 109ms
-[09:43:35.588] Browser ERROR   ./app/page.tsx:8:130
-Parsing ecmascript source code failed
-   6 |   return (
-   7 |     <main className="flex  items-center justify-center  font-sans bg-black">
->  8 |       <div></div> className="flex  w-full max-w-3xl flex-col items-center justify-between  bg-white dark:bg-black sm:items-start">
-     |                                                                                                                                  ^
-   9 |         <div className="w-full  ">
-  10 |           <Image src="/logo1.png" width={600} height={300} alt={""} />
-  11 |         </div>
-
-Unexpected token. Did you mean `{'>'}` or `&gt;`?
-[09:43:35.588] Browser ERROR   ./app/page.tsx:16:6
-Parsing ecmascript source code failed
-  14 |         </div>
-  15 |       </main>
-> 16 |     </main>
-     |      ^^^^^^
-  17 |   );
-  18 | }
-  19 |
-
-Unterminated regexp literal
-[09:43:37.793] Browser ERROR   ./app/page.tsx:8:124
-Parsing ecmascript source code failed
-   6 |   return (
-   7 |     <main className="flex  items-center justify-center  font-sans bg-black">
->  8 |       <div> className="flex  w-full max-w-3xl flex-col items-center justify-between  bg-white dark:bg-black sm:items-start">
-     |                                                                                                                            ^
-   9 |         <div className="w-full  ">
-  10 |           <Image src="/logo1.png" width={600} height={300} alt={""} />
-  11 |         </div>
-
-Unexpected token. Did you mean `{'>'}` or `&gt;`?
-[09:43:45.949] Browser ERROR   ./app/page.tsx:15:14
-Parsing ecmascript source code failed
-  13 |           <SincronarioCard />
-  14 |         </div>
-> 15 |       </main>
+  17 |       <div>
+  18 |         <
+> 19 |         <div></div>
      |              ^
-> 16 |     </main>
-     | ^^^^^
-  17 |   );
-  18 | }
-  19 |
+  20 |       </div>
+  21 |     </div>
+  22 |   );
 
-Expected '</', got 'jsx text (
-    )'
-[10:07:32.199] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[10:07:45.658] Browser WARN    Image with src "/logo1.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[10:07:45.658] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[10:08:24.665] Server  LOG      ✓ Compiled in 55ms
-[10:08:27.444] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[10:08:43.377] Browser WARN    Image with src "/logo1.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[10:08:43.378] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[10:09:18.727] Browser WARN    Image with src "/logo1.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[10:09:18.727] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[10:09:26.307] Browser WARN    Image with src "/logo1.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[10:09:26.307] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[10:10:46.649] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[10:11:05.556] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[10:15:51.979] Server  LOG      ✓ Compiled in 52ms
-[10:15:58.466] Server  LOG      ✓ Compiled in 72ms
-[10:17:12.417] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[10:21:23.190] Server  LOG      ✓ Compiled in 80ms
-[10:21:27.379] Browser WARN    Image with src "/logo1.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[10:21:27.379] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[10:21:29.968] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[10:21:49.157] Server  LOG      ✓ Compiled in 43ms
-[10:33:59.551] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/components/SincronarioCard.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[10:33:59.556] Server  LOG      ✓ Compiled in 215ms
-[10:34:08.352] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/components/SincronarioCard.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[10:34:08.364] Server  LOG      ✓ Compiled in 83ms
-[10:43:17.022] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[10:43:17.022] Browser WARN    Image with src "/logo1.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[10:43:30.047] Server  LOG      ✓ Compiled in 84ms
-[10:43:30.048] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/components/SincronarioCard.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[10:43:39.207] Server  LOG      ✓ Compiled in 76ms
-[10:43:41.497] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[10:43:41.497] Browser WARN    Image with src "/logo1.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[10:45:53.803] Server  LOG      ✓ Compiled in 32ms
-[10:45:57.328] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/components/SincronarioCard.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[10:45:57.348] Server  LOG      ✓ Compiled in 57ms
-[10:45:58.081] Browser WARN    Image with src "/logo1.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[10:45:58.081] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[10:47:28.465] Browser WARN    Image with src "/logo1.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[10:47:28.465] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[10:53:21.636] Server  LOG      ✓ Compiled in 85ms
-[10:55:45.663] Server  LOG      ✓ Compiled in 64ms
-[10:59:21.977] Browser WARN    Image with src "/logo1.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[10:59:21.977] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[11:05:01.145] Server  LOG      ✓ Compiled in 199ms
-[11:05:05.562] Server  LOG      ✓ Compiled in 77ms
-[11:05:37.207] Server  LOG      ✓ Compiled in 51ms
-[11:05:39.553] Server  LOG      ✓ Compiled in 49ms
-[11:05:56.416] Server  LOG      ✓ Compiled in 72ms
-[11:05:57.531] Server  LOG      ✓ Compiled in 33ms
-[11:06:01.392] Server  LOG      ✓ Compiled in 44ms
-[11:06:05.417] Server  LOG      ✓ Compiled in 43ms
-[11:06:07.992] Server  LOG      ✓ Compiled in 43ms
-[11:06:10.279] Server  LOG      ✓ Compiled in 41ms
-[11:06:16.342] Server  LOG      ✓ Compiled in 45ms
-[11:06:18.815] Server  LOG      ✓ Compiled in 41ms
-[11:06:21.539] Server  LOG      ✓ Compiled in 112ms
-[11:06:23.921] Server  LOG      ✓ Compiled in 50ms
-[11:06:27.785] Server  LOG      ✓ Compiled in 42ms
-[11:06:35.760] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[11:07:11.443] Server  LOG      ✓ Compiled in 90ms
-[11:07:22.404] Server  LOG      ✓ Compiled in 46ms
-[11:07:34.021] Server  LOG      ✓ Compiled in 51ms
-[11:07:34.171] Browser ERROR   ./app/components/menu/MenuItem.tsx:34:63
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/maintenance/ConstructionPage.tsx
+    ./app/layout.tsx
+[00:24:08.735] Browser ERROR   ./app/components/maintenance/ConstructionPage.tsx:19:15
 Parsing ecmascript source code failed
-  32 |         <ul className="submenu">
-  33 |           {children.map((child) => (
-> 34 |             <li key={child.href} className="className="text-xl"">
-     |                                                               ^^
-  35 |               <Link href={child.href}>{child.label}</Link>
-  36 |             </li>
-  37 |           ))}
+  17 |       <div>
+  18 |         <
+> 19 |         <div></div>
+     |               ^^^^^
+  20 |       </div>
+  21 |     </div>
+  22 |   );
 
-Expected '</', got 'string literal (, "")'
+Unterminated regexp literal
 
-Import traces:
-  Client Component Browser:
-    ./app/components/menu/MenuItem.tsx [Client Component Browser]
-    ./app/components/menu/Menu.tsx [Client Component Browser]
-    ./app/components/menu/Menu.tsx [Server Component]
-    ./app/layout.tsx [Server Component]
+Import trace:
+  Server Component:
+    ./app/components/maintenance/ConstructionPage.tsx
+    ./app/layout.tsx
+[00:24:10.218] Server  LOG      ✓ Compiled in 381ms
+[00:26:04.889] Server  LOG      ✓ Compiled in 120ms
+[00:27:08.314] Server  LOG      ✓ Compiled in 112ms
+[00:27:22.976] Server  LOG      ✓ Compiled in 220ms
+[00:27:58.618] Server  LOG      ✓ Compiled in 91ms
+[00:41:54.019] Server  LOG      ✓ Compiled in 92ms
+[00:43:04.424] Server  LOG      ✓ Compiled in 66ms
+[00:43:24.580] Server  LOG      ✓ Compiled in 113ms
+[00:43:30.013] Server  LOG      ✓ Compiled in 107ms
+[00:44:21.402] Server  LOG      ✓ Compiled in 118ms
+[00:44:37.832] Server  LOG      ✓ Compiled in 288ms
+[00:44:50.467] Server  LOG      ✓ Compiled in 156ms
+[00:45:09.231] Server  LOG      ✓ Compiled in 436ms
+[00:46:41.617] Server  LOG      ✓ Compiled in 102ms
+[00:48:33.073] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import LogoTriangulo from "./LogoTriangulo";
+> 2 | import { MessageCircle } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | const ConstructionPage = () => {
+  5 |   return (
 
-  Client Component SSR:
-    ./app/components/menu/MenuItem.tsx [Client Component SSR]
-    ./app/components/menu/Menu.tsx [Client Component SSR]
-    ./app/components/menu/Menu.tsx [Server Component]
-    ./app/layout.tsx [Server Component]
-[11:07:43.161] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[11:08:05.328] Server  LOG      ✓ Compiled in 46ms
-[11:08:08.600] Server  LOG      ✓ Compiled in 47ms
-[11:08:43.265] Server  LOG      ✓ Compiled in 55ms
-[11:08:46.505] Server  LOG      ✓ Compiled in 56ms
-[11:08:50.587] Browser WARN    Image with src "/logo1.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[11:08:50.587] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[11:08:59.634] Server  LOG      ✓ Compiled in 43ms
-[11:09:15.188] Server  LOG      ✓ Compiled in 58ms
-[11:09:47.570] Server  LOG      ✓ Compiled in 94ms
-[11:09:52.575] Server  LOG      ✓ Compiled in 48ms
-[11:10:02.871] Server  LOG      ✓ Compiled in 30ms
-[11:14:03.291] Server  LOG      ✓ Compiled in 241ms
-[11:14:06.420] Server  LOG      ✓ Compiled in 70ms
-[11:14:12.473] Server  LOG      ✓ Compiled in 153ms
-[11:14:19.774] Server  LOG      ✓ Compiled in 101ms
+
+
+Import trace:
+  Server Component:
+    ./app/components/maintenance/ConstructionPage.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:48:33.093] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import LogoTriangulo from "./LogoTriangulo";
+> 2 | import { MessageCircle } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | const ConstructionPage = () => {
+  5 |   return (
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/maintenance/ConstructionPage.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:48:33.111] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import LogoTriangulo from "./LogoTriangulo";
+> 2 | import { MessageCircle } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | const ConstructionPage = () => {
+  5 |   return (
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/maintenance/ConstructionPage.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:48:33.121] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import LogoTriangulo from "./LogoTriangulo";
+> 2 | import { MessageCircle } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | const ConstructionPage = () => {
+  5 |   return (
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/maintenance/ConstructionPage.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:48:33.138] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import LogoTriangulo from "./LogoTriangulo";
+> 2 | import { MessageCircle } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | const ConstructionPage = () => {
+  5 |   return (
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/maintenance/ConstructionPage.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:48:33.142] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import LogoTriangulo from "./LogoTriangulo";
+> 2 | import { MessageCircle } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | const ConstructionPage = () => {
+  5 |   return (
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/maintenance/ConstructionPage.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:48:33.150] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import LogoTriangulo from "./LogoTriangulo";
+> 2 | import { MessageCircle } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | const ConstructionPage = () => {
+  5 |   return (
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/maintenance/ConstructionPage.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:48:33.160] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import LogoTriangulo from "./LogoTriangulo";
+> 2 | import { MessageCircle } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | const ConstructionPage = () => {
+  5 |   return (
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/maintenance/ConstructionPage.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:48:33.164] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import LogoTriangulo from "./LogoTriangulo";
+> 2 | import { MessageCircle } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | const ConstructionPage = () => {
+  5 |   return (
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/maintenance/ConstructionPage.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:48:33.174] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import LogoTriangulo from "./LogoTriangulo";
+> 2 | import { MessageCircle } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | const ConstructionPage = () => {
+  5 |   return (
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/maintenance/ConstructionPage.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:48:33.179] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import LogoTriangulo from "./LogoTriangulo";
+> 2 | import { MessageCircle } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | const ConstructionPage = () => {
+  5 |   return (
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/maintenance/ConstructionPage.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:48:33.185] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import LogoTriangulo from "./LogoTriangulo";
+> 2 | import { MessageCircle } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | const ConstructionPage = () => {
+  5 |   return (
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/maintenance/ConstructionPage.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:48:33.189] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import LogoTriangulo from "./LogoTriangulo";
+> 2 | import { MessageCircle } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | const ConstructionPage = () => {
+  5 |   return (
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/maintenance/ConstructionPage.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:48:33.192] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import LogoTriangulo from "./LogoTriangulo";
+> 2 | import { MessageCircle } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | const ConstructionPage = () => {
+  5 |   return (
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/maintenance/ConstructionPage.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:48:33.196] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import LogoTriangulo from "./LogoTriangulo";
+> 2 | import { MessageCircle } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | const ConstructionPage = () => {
+  5 |   return (
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/maintenance/ConstructionPage.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:48:33.198] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import LogoTriangulo from "./LogoTriangulo";
+> 2 | import { MessageCircle } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | const ConstructionPage = () => {
+  5 |   return (
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/maintenance/ConstructionPage.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:48:33.204] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import LogoTriangulo from "./LogoTriangulo";
+> 2 | import { MessageCircle } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | const ConstructionPage = () => {
+  5 |   return (
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/maintenance/ConstructionPage.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:48:33.206] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import LogoTriangulo from "./LogoTriangulo";
+> 2 | import { MessageCircle } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | const ConstructionPage = () => {
+  5 |   return (
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/maintenance/ConstructionPage.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:48:33.210] Server  LOG      ✓ Compiled in 203ms
+[00:48:33.366] Browser ERROR   ./app/components/maintenance/ConstructionPage.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import LogoTriangulo from "./LogoTriangulo";
+> 2 | import { MessageCircle } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | const ConstructionPage = () => {
+  5 |   return (
+
+Import trace:
+  Server Component:
+    ./app/components/maintenance/ConstructionPage.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:49:41.358] Browser ERROR   ./app/components/maintenance/ConstructionPage.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import LogoTriangulo from "./LogoTriangulo";
+> 2 | import { MessageCircle } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | const ConstructionPage = () => {
+  5 |   return (
+
+Import trace:
+  Server Component:
+    ./app/components/maintenance/ConstructionPage.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:49:41.358] Browser ERROR   ./app/components/maintenance/ConstructionPage.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import LogoTriangulo from "./LogoTriangulo";
+> 2 | import { MessageCircle } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | const ConstructionPage = () => {
+  5 |   return (
+
+Import trace:
+  Server Component:
+    ./app/components/maintenance/ConstructionPage.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:49:43.356] Browser ERROR   ./app/components/maintenance/ConstructionPage.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import LogoTriangulo from "./LogoTriangulo";
+> 2 | import { MessageCircle } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | const ConstructionPage = () => {
+  5 |   return (
+
+Import trace:
+  Server Component:
+    ./app/components/maintenance/ConstructionPage.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:49:44.357] Browser ERROR   ./app/components/maintenance/ConstructionPage.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import LogoTriangulo from "./LogoTriangulo";
+> 2 | import { MessageCircle } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | const ConstructionPage = () => {
+  5 |   return (
+
+Import trace:
+  Server Component:
+    ./app/components/maintenance/ConstructionPage.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:49:46.555] Server  LOG      ✓ Compiled in 885ms
+[00:59:21.962] Server  LOG      ✓ Compiled in 203ms
+[00:59:22.357] Browser ERROR   ./app/components/maintenance/ConstructionPage.tsx:45:6
+Parsing ecmascript source code failed
+  43 |         <MessageCircle className="w-7 h-7" />
+  44 |       </a>
+> 45 |     </div>
+     |      ^^^^^
+  46 |   );
+  47 | };
+  48 |
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/maintenance/ConstructionPage.tsx
+    ./app/layout.tsx
+[00:59:46.358] Browser ERROR   ./app/components/maintenance/ConstructionPage.tsx:45:6
+Parsing ecmascript source code failed
+  43 |         <MessageCircle className="w-7 h-7" />
+  44 |       </a>
+> 45 |     </div>
+     |      ^^^^^
+  46 |   );
+  47 | };
+  48 |
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/maintenance/ConstructionPage.tsx
+    ./app/layout.tsx
+[01:00:03.357] Browser ERROR   ./app/components/maintenance/ConstructionPage.tsx:34:1
+Parsing ecmascript source code failed
+  32 |     </div>
+  33 |   );
+> 34 | };
+     | ^
+  35 |
+  36 |       {/* Botón WhatsApp flotante en esquina */}
+  37 |       <a
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./app/components/maintenance/ConstructionPage.tsx
+    ./app/layout.tsx
+[01:00:09.357] Browser ERROR   ./app/components/maintenance/ConstructionPage.tsx:34:1
+Parsing ecmascript source code failed
+  32 |     </div>
+  33 |   );
+> 34 | };
+     | ^
+  35 |
+  36 |       {/* Botón WhatsApp flotante en esquina */}
+  37 |       <a
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./app/components/maintenance/ConstructionPage.tsx
+    ./app/layout.tsx
+[01:01:29.356] Browser ERROR   ./app/components/maintenance/ConstructionPage.tsx:45:6
+Parsing ecmascript source code failed
+  43 |         <MessageCircle className="w-7 h-7" />
+  44 |       </a>
+> 45 |     </div>
+     |      ^^^^^
+  46 |   );
+  47 | };
+  48 |
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/maintenance/ConstructionPage.tsx
+    ./app/layout.tsx
+[01:02:07.579] Server  LOG      ✓ Compiled in 154ms
+[01:03:19.814] Server  LOG      ✓ Compiled in 93ms
+[01:04:34.188] Server  LOG      ✓ Compiled in 86ms
+[01:04:59.282] Server  LOG      ✓ Compiled in 71ms
+[01:05:04.690] Server  LOG      ✓ Compiled in 80ms
+[01:05:10.517] Server  LOG      ✓ Compiled in 89ms
