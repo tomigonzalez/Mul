@@ -3,7 +3,7 @@ import { MessageCircle } from "lucide-react";
 
 const ConstructionPage = () => {
   return (
-    <div className="w-full min-h-screen overflow-hidden md:overflow-auto bg-black text-white flex flex-col items-center justify-center p-6">
+    <div className="w-full min-h-screen overflow-hidden md:overflow-auto bg-black text-white flex flex-col items-center justify-evenly md:justify-center p-0 m:p-6">
       <div className="flex flex-col items-center text-center max-w-lg">
         <LogoTriangulo width={300} height={340} />
         <h1 className="text-xl md:text-3xl font-bold mt-8 mb-3 tracking-tight">

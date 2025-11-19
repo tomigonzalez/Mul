@@ -531,6 +531,10 @@
     justify-content: center;
   }
 
+  .justify-evenly {
+    justify-content: space-evenly;
+  }
+
   .justify-items-center {
     justify-items: center;
   }
@@ -798,6 +802,12 @@
   @media (min-width: 48rem) {
     .md\:w-56 {
       width: calc(var(--spacing) * 56);
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:justify-center {
+      justify-content: center;
     }
   }
 
