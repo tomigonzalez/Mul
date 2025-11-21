@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Pompiere } from "next/font/google";
 import "./globals.css";
 import Menu from "./components/menu/Menu";
 import ConstructionPage from "./components/maintenance/ConstructionPage";
@@ -12,6 +12,12 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+const pompier = Pompiere({
+  subsets: ["latin"],
+  weight: ["400"], // Pompier solo tiene peso 400
+  variable: "--font-pompier", // Crea una variable CSS para usarla
 });
 
 export const metadata: Metadata = {
@@ -29,7 +35,7 @@ export default function RootLayout({
     return (
       <html lang="en">
         <body
-          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+          className={`${geistSans.variable} ${geistMono.variable} ${pompier.variable} antialiased`}
         >
           <ConstructionPage />
         </body>

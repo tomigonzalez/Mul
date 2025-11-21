@@ -24,7 +24,10 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
-
+.font-pompier-custom {
+  /* Usa la variable CSS que definiste en el layout */
+  font-family: var(--font-pompier), cursive; 
+}
 
 
 /* ./globals.css */

@@ -1,584 +1,134 @@
-[00:00:33.602] Server  LOG      ✓ Ready in 22.2s
-[00:03:27.624] Server  LOG      ○ Compiling / ...
-[00:04:22.966] Browser WARN    Image with src "http://localhost:3000/LogoTriangulo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:04:43.125] Browser ERROR   uncaughtError: Error: Image with src "/LogoTriangulo.svg" has both "width" and "fill" properties. Only one should be used.
-[00:04:49.812] Server  LOG      ✓ Compiled in 385ms
-[00:05:22.607] Browser WARN    Image with src "http://localhost:3000/LogoTriangulo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:16:57.063] Server  LOG      ✓ Compiled in 129ms
-[00:18:22.443] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\[root-of-the-server]__cdb65c86._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:18:22.449] Server  ERROR    ⨯ ReferenceError: LogoTriangulo is not defined
-[00:18:22.465] Server  LOG      ✓ Compiled in 363ms
-[00:18:22.556] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\[root-of-the-server]__cdb65c86._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:18:22.557] Server  ERROR    ⨯ ReferenceError: LogoTriangulo is not defined
-[00:18:23.357] Browser ERROR   uncaughtError: ReferenceError: LogoTriangulo is not defined
-[00:18:28.767] Server  LOG      ✓ Compiled in 193ms
-[00:24:08.735] Browser ERROR   ./app/components/maintenance/ConstructionPage.tsx:19:14
-Parsing ecmascript source code failed
-  17 |       <div>
-  18 |         <
-> 19 |         <div></div>
-     |              ^
-  20 |       </div>
-  21 |     </div>
-  22 |   );
+[00:00:38.669] Server  LOG      ✓ Ready in 25.6s
+[00:00:41.816] Server  LOG      ○ Compiling / ...
+[00:01:03.630] Browser WARN    Image with src "/logoLetras.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:08:46.694] Server  LOG      ✓ Compiled in 159ms
+[00:25:56.248] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\[root-of-the-server]__9012545e._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:25:56.253] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:25:56.255] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\[root-of-the-server]__4e2eac54._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:25:56.272] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\node_modules_next_dist_2f87da1c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:25:56.465] Server  ERROR   E:\Proyectos\Mul\mul-front\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:25:56.469] Server  ERROR   E:\Proyectos\Mul\mul-front\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:25:56.493] Server  ERROR    ⨯ ReferenceError: Pompier is not defined
+[00:25:56.506] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\[root-of-the-server]__9012545e._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:25:56.508] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:25:56.510] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\[root-of-the-server]__4e2eac54._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:25:56.511] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\node_modules_next_dist_2f87da1c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:25:56.516] Server  ERROR   E:\Proyectos\Mul\mul-front\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:25:56.518] Server  ERROR   E:\Proyectos\Mul\mul-front\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:25:56.536] Server  ERROR    ⨯ ReferenceError: Pompier is not defined
+[00:25:59.543] Server  LOG      ○ Compiling /_error ...
+[00:26:00.825] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\[root-of-the-server]__9012545e._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:26:00.832] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:26:00.875] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\[root-of-the-server]__4e2eac54._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:26:00.942] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\node_modules_next_dist_2f87da1c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:26:00.962] Server  ERROR   E:\Proyectos\Mul\mul-front\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:26:00.993] Server  ERROR   E:\Proyectos\Mul\mul-front\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:26:01.057] Server  ERROR    ⨯ ReferenceError: Pompier is not defined
+[00:26:01.091] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\[root-of-the-server]__9012545e._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:26:01.116] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:26:01.141] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\[root-of-the-server]__4e2eac54._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:26:01.174] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\node_modules_next_dist_2f87da1c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:26:01.215] Server  ERROR   E:\Proyectos\Mul\mul-front\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:26:01.219] Server  ERROR   E:\Proyectos\Mul\mul-front\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:26:01.230] Server  ERROR    ⨯ ReferenceError: Pompier is not defined
+[00:26:01.609] Browser ERROR   uncaughtError: ReferenceError: Pompier is not defined
+[00:26:02.120] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
 
-Expression expected
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
 
-Import trace:
-  Server Component:
-    ./app/components/maintenance/ConstructionPage.tsx
-    ./app/layout.tsx
-[00:24:08.735] Browser ERROR   ./app/components/maintenance/ConstructionPage.tsx:19:15
-Parsing ecmascript source code failed
-  17 |       <div>
-  18 |         <
-> 19 |         <div></div>
-     |               ^^^^^
-  20 |       </div>
-  21 |     </div>
-  22 |   );
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
 
-Unterminated regexp literal
-
-Import trace:
-  Server Component:
-    ./app/components/maintenance/ConstructionPage.tsx
-    ./app/layout.tsx
-[00:24:10.218] Server  LOG      ✓ Compiled in 381ms
-[00:26:04.889] Server  LOG      ✓ Compiled in 120ms
-[00:27:08.314] Server  LOG      ✓ Compiled in 112ms
-[00:27:22.976] Server  LOG      ✓ Compiled in 220ms
-[00:27:58.618] Server  LOG      ✓ Compiled in 91ms
-[00:41:54.019] Server  LOG      ✓ Compiled in 92ms
-[00:43:04.424] Server  LOG      ✓ Compiled in 66ms
-[00:43:24.580] Server  LOG      ✓ Compiled in 113ms
-[00:43:30.013] Server  LOG      ✓ Compiled in 107ms
-[00:44:21.402] Server  LOG      ✓ Compiled in 118ms
-[00:44:37.832] Server  LOG      ✓ Compiled in 288ms
-[00:44:50.467] Server  LOG      ✓ Compiled in 156ms
-[00:45:09.231] Server  LOG      ✓ Compiled in 436ms
-[00:46:41.617] Server  LOG      ✓ Compiled in 102ms
-[00:48:33.073] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
-Module not found: Can't resolve 'lucide-react'
-  1 | import LogoTriangulo from "./LogoTriangulo";
-> 2 | import { MessageCircle } from "lucide-react";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | const ConstructionPage = () => {
-  5 |   return (
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/maintenance/ConstructionPage.tsx
-    ./app/layout.tsx
 
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:48:33.093] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
-Module not found: Can't resolve 'lucide-react'
-  1 | import LogoTriangulo from "./LogoTriangulo";
-> 2 | import { MessageCircle } from "lucide-react";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | const ConstructionPage = () => {
-  5 |   return (
+[00:26:02.631] Browser ERROR   ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
 
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
 
-
-Import trace:
-  Server Component:
-    ./app/components/maintenance/ConstructionPage.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:48:33.111] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
-Module not found: Can't resolve 'lucide-react'
-  1 | import LogoTriangulo from "./LogoTriangulo";
-> 2 | import { MessageCircle } from "lucide-react";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | const ConstructionPage = () => {
-  5 |   return (
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/maintenance/ConstructionPage.tsx
-    ./app/layout.tsx
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
 
 https://nextjs.org/docs/messages/module-not-found
-
-
-[00:48:33.121] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
-Module not found: Can't resolve 'lucide-react'
-  1 | import LogoTriangulo from "./LogoTriangulo";
-> 2 | import { MessageCircle } from "lucide-react";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | const ConstructionPage = () => {
-  5 |   return (
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/maintenance/ConstructionPage.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:48:33.138] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
-Module not found: Can't resolve 'lucide-react'
-  1 | import LogoTriangulo from "./LogoTriangulo";
-> 2 | import { MessageCircle } from "lucide-react";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | const ConstructionPage = () => {
-  5 |   return (
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/maintenance/ConstructionPage.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:48:33.142] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
-Module not found: Can't resolve 'lucide-react'
-  1 | import LogoTriangulo from "./LogoTriangulo";
-> 2 | import { MessageCircle } from "lucide-react";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | const ConstructionPage = () => {
-  5 |   return (
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/maintenance/ConstructionPage.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:48:33.150] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
-Module not found: Can't resolve 'lucide-react'
-  1 | import LogoTriangulo from "./LogoTriangulo";
-> 2 | import { MessageCircle } from "lucide-react";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | const ConstructionPage = () => {
-  5 |   return (
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/maintenance/ConstructionPage.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:48:33.160] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
-Module not found: Can't resolve 'lucide-react'
-  1 | import LogoTriangulo from "./LogoTriangulo";
-> 2 | import { MessageCircle } from "lucide-react";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | const ConstructionPage = () => {
-  5 |   return (
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/maintenance/ConstructionPage.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:48:33.164] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
-Module not found: Can't resolve 'lucide-react'
-  1 | import LogoTriangulo from "./LogoTriangulo";
-> 2 | import { MessageCircle } from "lucide-react";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | const ConstructionPage = () => {
-  5 |   return (
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/maintenance/ConstructionPage.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:48:33.174] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
-Module not found: Can't resolve 'lucide-react'
-  1 | import LogoTriangulo from "./LogoTriangulo";
-> 2 | import { MessageCircle } from "lucide-react";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | const ConstructionPage = () => {
-  5 |   return (
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/maintenance/ConstructionPage.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:48:33.179] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
-Module not found: Can't resolve 'lucide-react'
-  1 | import LogoTriangulo from "./LogoTriangulo";
-> 2 | import { MessageCircle } from "lucide-react";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | const ConstructionPage = () => {
-  5 |   return (
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/maintenance/ConstructionPage.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:48:33.185] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
-Module not found: Can't resolve 'lucide-react'
-  1 | import LogoTriangulo from "./LogoTriangulo";
-> 2 | import { MessageCircle } from "lucide-react";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | const ConstructionPage = () => {
-  5 |   return (
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/maintenance/ConstructionPage.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:48:33.189] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
-Module not found: Can't resolve 'lucide-react'
-  1 | import LogoTriangulo from "./LogoTriangulo";
-> 2 | import { MessageCircle } from "lucide-react";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | const ConstructionPage = () => {
-  5 |   return (
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/maintenance/ConstructionPage.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:48:33.192] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
-Module not found: Can't resolve 'lucide-react'
-  1 | import LogoTriangulo from "./LogoTriangulo";
-> 2 | import { MessageCircle } from "lucide-react";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | const ConstructionPage = () => {
-  5 |   return (
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/maintenance/ConstructionPage.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:48:33.196] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
-Module not found: Can't resolve 'lucide-react'
-  1 | import LogoTriangulo from "./LogoTriangulo";
-> 2 | import { MessageCircle } from "lucide-react";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | const ConstructionPage = () => {
-  5 |   return (
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/maintenance/ConstructionPage.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:48:33.198] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
-Module not found: Can't resolve 'lucide-react'
-  1 | import LogoTriangulo from "./LogoTriangulo";
-> 2 | import { MessageCircle } from "lucide-react";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | const ConstructionPage = () => {
-  5 |   return (
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/maintenance/ConstructionPage.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:48:33.204] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
-Module not found: Can't resolve 'lucide-react'
-  1 | import LogoTriangulo from "./LogoTriangulo";
-> 2 | import { MessageCircle } from "lucide-react";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | const ConstructionPage = () => {
-  5 |   return (
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/maintenance/ConstructionPage.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:48:33.206] Server  ERROR    ⨯ ./app/components/maintenance/ConstructionPage.tsx:2:1
-Module not found: Can't resolve 'lucide-react'
-  1 | import LogoTriangulo from "./LogoTriangulo";
-> 2 | import { MessageCircle } from "lucide-react";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | const ConstructionPage = () => {
-  5 |   return (
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/maintenance/ConstructionPage.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:48:33.210] Server  LOG      ✓ Compiled in 203ms
-[00:48:33.366] Browser ERROR   ./app/components/maintenance/ConstructionPage.tsx:2:1
-Module not found: Can't resolve 'lucide-react'
-  1 | import LogoTriangulo from "./LogoTriangulo";
-> 2 | import { MessageCircle } from "lucide-react";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | const ConstructionPage = () => {
-  5 |   return (
-
-Import trace:
-  Server Component:
-    ./app/components/maintenance/ConstructionPage.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:49:41.358] Browser ERROR   ./app/components/maintenance/ConstructionPage.tsx:2:1
-Module not found: Can't resolve 'lucide-react'
-  1 | import LogoTriangulo from "./LogoTriangulo";
-> 2 | import { MessageCircle } from "lucide-react";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | const ConstructionPage = () => {
-  5 |   return (
-
-Import trace:
-  Server Component:
-    ./app/components/maintenance/ConstructionPage.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:49:41.358] Browser ERROR   ./app/components/maintenance/ConstructionPage.tsx:2:1
-Module not found: Can't resolve 'lucide-react'
-  1 | import LogoTriangulo from "./LogoTriangulo";
-> 2 | import { MessageCircle } from "lucide-react";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | const ConstructionPage = () => {
-  5 |   return (
-
-Import trace:
-  Server Component:
-    ./app/components/maintenance/ConstructionPage.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:49:43.356] Browser ERROR   ./app/components/maintenance/ConstructionPage.tsx:2:1
-Module not found: Can't resolve 'lucide-react'
-  1 | import LogoTriangulo from "./LogoTriangulo";
-> 2 | import { MessageCircle } from "lucide-react";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | const ConstructionPage = () => {
-  5 |   return (
-
-Import trace:
-  Server Component:
-    ./app/components/maintenance/ConstructionPage.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:49:44.357] Browser ERROR   ./app/components/maintenance/ConstructionPage.tsx:2:1
-Module not found: Can't resolve 'lucide-react'
-  1 | import LogoTriangulo from "./LogoTriangulo";
-> 2 | import { MessageCircle } from "lucide-react";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | const ConstructionPage = () => {
-  5 |   return (
-
-Import trace:
-  Server Component:
-    ./app/components/maintenance/ConstructionPage.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:49:46.555] Server  LOG      ✓ Compiled in 885ms
-[00:59:21.962] Server  LOG      ✓ Compiled in 203ms
-[00:59:22.357] Browser ERROR   ./app/components/maintenance/ConstructionPage.tsx:45:6
-Parsing ecmascript source code failed
-  43 |         <MessageCircle className="w-7 h-7" />
-  44 |       </a>
-> 45 |     </div>
-     |      ^^^^^
-  46 |   );
-  47 | };
-  48 |
-
-Unterminated regexp literal
-
-Import trace:
-  Server Component:
-    ./app/components/maintenance/ConstructionPage.tsx
-    ./app/layout.tsx
-[00:59:46.358] Browser ERROR   ./app/components/maintenance/ConstructionPage.tsx:45:6
-Parsing ecmascript source code failed
-  43 |         <MessageCircle className="w-7 h-7" />
-  44 |       </a>
-> 45 |     </div>
-     |      ^^^^^
-  46 |   );
-  47 | };
-  48 |
-
-Unterminated regexp literal
-
-Import trace:
-  Server Component:
-    ./app/components/maintenance/ConstructionPage.tsx
-    ./app/layout.tsx
-[01:00:03.357] Browser ERROR   ./app/components/maintenance/ConstructionPage.tsx:34:1
-Parsing ecmascript source code failed
-  32 |     </div>
-  33 |   );
-> 34 | };
-     | ^
-  35 |
-  36 |       {/* Botón WhatsApp flotante en esquina */}
-  37 |       <a
-
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-
-Import trace:
-  Server Component:
-    ./app/components/maintenance/ConstructionPage.tsx
-    ./app/layout.tsx
-[01:00:09.357] Browser ERROR   ./app/components/maintenance/ConstructionPage.tsx:34:1
-Parsing ecmascript source code failed
-  32 |     </div>
-  33 |   );
-> 34 | };
-     | ^
-  35 |
-  36 |       {/* Botón WhatsApp flotante en esquina */}
-  37 |       <a
-
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-
-Import trace:
-  Server Component:
-    ./app/components/maintenance/ConstructionPage.tsx
-    ./app/layout.tsx
-[01:01:29.356] Browser ERROR   ./app/components/maintenance/ConstructionPage.tsx:45:6
-Parsing ecmascript source code failed
-  43 |         <MessageCircle className="w-7 h-7" />
-  44 |       </a>
-> 45 |     </div>
-     |      ^^^^^
-  46 |   );
-  47 | };
-  48 |
-
-Unterminated regexp literal
-
-Import trace:
-  Server Component:
-    ./app/components/maintenance/ConstructionPage.tsx
-    ./app/layout.tsx
-[01:02:07.579] Server  LOG      ✓ Compiled in 154ms
-[01:03:19.814] Server  LOG      ✓ Compiled in 93ms
-[01:04:34.188] Server  LOG      ✓ Compiled in 86ms
-[01:04:59.282] Server  LOG      ✓ Compiled in 71ms
-[01:05:04.690] Server  LOG      ✓ Compiled in 80ms
-[01:05:10.517] Server  LOG      ✓ Compiled in 89ms
-[01:11:32.422] Server  LOG        Reload env: .env.local
-[01:11:32.519] Server  LOG      ✓ Compiled in 116ms
-[01:11:35.357] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:12:05.897] Browser WARN    Image with src "/logo1.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:26:17.568] Server  LOG      ✓ Compiled in 507ms
+[00:26:47.190] Browser WARN    Image with src "/logoLetras.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:39:55.464] Server  LOG      ✓ Compiled in 269ms
+[00:41:07.196] Server  LOG      ✓ Compiled in 97ms
+[00:50:08.642] Server  ERROR   E:\Proyectos\Mul\mul-front\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:50:08.646] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[00:50:08.678] Server  LOG      ✓ Compiled in 286ms
+[00:50:09.614] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `RootLayout`.
+[00:50:15.201] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:50:15.752] Server  LOG      ✓ Compiled in 189ms
+[00:50:15.807] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:50:17.859] Browser WARN    Image with src "/logoLetras.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[01:12:05.897] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:12:46.384] Server  LOG        Reload env: .env.local
-[01:12:46.513] Server  LOG      ✓ Compiled in 129ms
-[01:12:46.818] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[01:22:43.809] Server  LOG      ✓ Compiled in 85ms
-[01:35:57.126] Server  LOG      ✓ Compiled in 119ms
-[01:43:44.428] Server  LOG      ✓ Compiled in 125ms
-[01:46:20.060] Server  LOG      ✓ Compiled in 119ms
-[01:46:26.186] Server  LOG      ✓ Compiled in 135ms
-[01:46:39.610] Server  LOG      ✓ Compiled in 160ms
-[01:50:40.164] Server  LOG      ✓ Compiled in 129ms
-[02:00:02.144] Server  LOG      ✓ Compiled in 109ms
-[02:00:09.221] Server  LOG      ✓ Compiled in 105ms
+[00:51:48.057] Server  ERROR   E:\Proyectos\Mul\mul-front\.next\dev\server\chunks\ssr\[root-of-the-server]__eb51775e._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:51:48.058] Server  ERROR    ⨯ ReferenceError: MessageCircle is not defined
+[00:51:48.270] Browser ERROR   uncaughtError: ReferenceError: MessageCircle is not defined
+[00:51:53.178] Browser WARN    Image with src "/logoLetras.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:57:43.004] Browser ERROR   ./app/components/maintenance/ConstructionPage.tsx:34:15
+Parsing ecmascript source code failed
+  32 |             En un mundo que te grita quién deberías ser, el silencio te recuerda
+  33 |             quién ya eres.</p> Estamos levantando el templo digital del Monje.
+> 34 |           </p>
+     |               ^
+> 35 |
+     | ^
+> 36 |           <div className="flex flex-col md:flex-row items-center gap-6 md:gap-8 mt-6">
+     | ^^^^^^^^^^^
+  37 |             <div className="shrink-0 w-32 h-32 bg-white p-1">
+  38 |               {/* Ejemplo: <Image src="/qr-whatsapp.png" width={120} height={120} alt="Código QR de WhatsApp" /> */}
+  39 |               <p className="text-black text-xs text-center font-sans">
+
+Expected '</', got 'jsx text (
+
+          )'
+
+Import trace:
+  Server Component:
+    ./app/components/maintenance/ConstructionPage.tsx
+    ./app/layout.tsx
+[00:57:44.638] Server  LOG      ✓ Compiled in 63ms
+[00:58:20.498] Server  LOG      ✓ Compiled in 65ms
+[01:12:16.587] Server  LOG      ✓ Compiled in 88ms
+[01:13:28.037] Browser WARN    Image with src "/logoLetras.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:15:55.177] Server  LOG      ✓ Compiled in 90ms
+[01:15:57.895] Browser WARN    Image with src "/logoLetras.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:17:19.047] Server  LOG      ✓ Compiled in 76ms
+[01:17:55.347] Browser WARN    Image with src "/logoLetras.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:19:14.694] Server  LOG      ✓ Compiled in 155ms
+[01:19:58.139] Server  LOG      ✓ Compiled in 120ms
