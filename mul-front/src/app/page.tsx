@@ -1,6 +1,6 @@
 import Image from "next/image";
 import "../app/globals.css";
-import SincronarioCard from "./components/SincronarioCard";
+import SincronarioCard from "@/components/SincronarioCard";
 
 export default function Home() {
   return (
