@@ -1,4 +1,7 @@
-@"
+# Next.js
+.next/
+out/
+
 # Node
 node_modules/
 npm-debug.log
@@ -6,11 +9,15 @@ yarn-error.log
 dist/
 build/
 
-# Editor
+# Entorno (Seguridad)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor y Sistema
 .vscode/
 .idea/
-
-# System
 .DS_Store
-"@ > .gitignore
-.env.local
+Thumbs.db
