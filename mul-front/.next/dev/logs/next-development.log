@@ -1,0 +1,1658 @@
+[00:00:31.094] Server  LOG      ✓ Ready in 20s
+[00:49:25.169] Server  LOG      ○ Compiling / ...
+[00:49:39.048] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:51:40.533] Server  LOG      ✓ Compiled in 135ms
+[00:52:22.513] Browser WARN    Image with src "/logo1.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:21:20.337] Server  LOG      ✓ Compiled in 93ms
+[01:21:35.756] Server  LOG      ✓ Compiled in 148ms
+[01:22:29.831] Server  LOG      ✓ Compiled in 52ms
+[01:22:30.173] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:22:32.555] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:22:32.555] Browser WARN    Image with src "/logo1.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:24:50.505] Server  LOG      ✓ Compiled in 51ms
+[01:25:02.892] Server  LOG      ✓ Compiled in 55ms
+[01:25:10.060] Browser WARN    Image with src "http://localhost:3000/LogoTriangulo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:19:38.107] Server  LOG      ✓ Compiled in 990ms
+[02:19:39.937] Server  ERROR    ⨯ ./src/app/page.tsx:2:1
+Module not found: Can't resolve '../app/globals.css'
+  1 | import Image from "next/image";
+> 2 | import "../app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:19:41.446] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '../app/globals.css'
+  1 | import Image from "next/image";
+> 2 | import "../app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[02:19:41.561] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '../app/globals.css'
+  1 | import Image from "next/image";
+> 2 | import "../app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[02:19:41.561] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '../app/globals.css'
+  1 | import Image from "next/image";
+> 2 | import "../app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[02:19:41.561] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '../app/globals.css'
+  1 | import Image from "next/image";
+> 2 | import "../app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[02:19:41.812] Browser WARN    Image with src "/LogoTriangulo.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[02:19:44.643] Server  ERROR    ⨯ ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve '../app/globals.css'
+  1 | import Image from "next/image";
+> 2 | import "../app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:19:44.651] Server  ERROR    ⨯ ./src/app/(main)/layout.tsx:5:1
+Module not found: Can't resolve '../components/maintenance/ConstructionPage'
+  3 | import "./globals.css";
+  4 | import Menu from "../components/menu/Menu";
+> 5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:19:44.655] Server  ERROR    ⨯ ./src/app/(main)/layout.tsx:4:1
+Module not found: Can't resolve '../components/menu/Menu'
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import Menu from "../components/menu/Menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+  6 |
+  7 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:19:44.662] Server  ERROR    ⨯ ./src/app/(main)/layout.tsx:4:1
+Module not found: Can't resolve '../components/menu/Menu'
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import Menu from "../components/menu/Menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+  6 |
+  7 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:19:44.666] Server  ERROR    ⨯ ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve '../app/globals.css'
+  1 | import Image from "next/image";
+> 2 | import "../app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:19:44.670] Server  ERROR    ⨯ ./src/app/(main)/layout.tsx:5:1
+Module not found: Can't resolve '../components/maintenance/ConstructionPage'
+  3 | import "./globals.css";
+  4 | import Menu from "../components/menu/Menu";
+> 5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:19:44.674] Server  ERROR    ⨯ ./src/app/(main)/layout.tsx:4:1
+Module not found: Can't resolve '../components/menu/Menu'
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import Menu from "../components/menu/Menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+  6 |
+  7 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:19:44.681] Server  ERROR    ⨯ ./src/app/(main)/layout.tsx:4:1
+Module not found: Can't resolve '../components/menu/Menu'
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import Menu from "../components/menu/Menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+  6 |
+  7 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:19:44.686] Server  ERROR    ⨯ ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve '../app/globals.css'
+  1 | import Image from "next/image";
+> 2 | import "../app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:19:44.689] Server  ERROR    ⨯ ./src/app/(main)/layout.tsx:5:1
+Module not found: Can't resolve '../components/maintenance/ConstructionPage'
+  3 | import "./globals.css";
+  4 | import Menu from "../components/menu/Menu";
+> 5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:19:44.692] Server  ERROR    ⨯ ./src/app/(main)/layout.tsx:4:1
+Module not found: Can't resolve '../components/menu/Menu'
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import Menu from "../components/menu/Menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+  6 |
+  7 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:19:44.694] Server  ERROR    ⨯ ./src/app/(main)/layout.tsx:4:1
+Module not found: Can't resolve '../components/menu/Menu'
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import Menu from "../components/menu/Menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+  6 |
+  7 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:19:44.697] Server  ERROR    ⨯ ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve '../app/globals.css'
+  1 | import Image from "next/image";
+> 2 | import "../app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:19:44.699] Server  ERROR    ⨯ ./src/app/(main)/layout.tsx:5:1
+Module not found: Can't resolve '../components/maintenance/ConstructionPage'
+  3 | import "./globals.css";
+  4 | import Menu from "../components/menu/Menu";
+> 5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:19:44.702] Server  ERROR    ⨯ ./src/app/(main)/layout.tsx:4:1
+Module not found: Can't resolve '../components/menu/Menu'
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import Menu from "../components/menu/Menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+  6 |
+  7 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:19:44.705] Server  ERROR    ⨯ ./src/app/(main)/layout.tsx:4:1
+Module not found: Can't resolve '../components/menu/Menu'
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import Menu from "../components/menu/Menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+  6 |
+  7 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:19:45.183] Browser ERROR   ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve '../app/globals.css'
+  1 | import Image from "next/image";
+> 2 | import "../app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[02:19:45.183] Browser ERROR   ./src/app/(main)/layout.tsx:5:1
+Module not found: Can't resolve '../components/maintenance/ConstructionPage'
+  3 | import "./globals.css";
+  4 | import Menu from "../components/menu/Menu";
+> 5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+https://nextjs.org/docs/messages/module-not-found
+[02:19:45.183] Browser ERROR   ./src/app/(main)/layout.tsx:4:1
+Module not found: Can't resolve '../components/menu/Menu'
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import Menu from "../components/menu/Menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+  6 |
+  7 | const geistSans = Geist({
+
+https://nextjs.org/docs/messages/module-not-found
+[02:19:45.183] Browser ERROR   ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve '../app/globals.css'
+  1 | import Image from "next/image";
+> 2 | import "../app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[02:19:45.183] Browser ERROR   ./src/app/(main)/layout.tsx:5:1
+Module not found: Can't resolve '../components/maintenance/ConstructionPage'
+  3 | import "./globals.css";
+  4 | import Menu from "../components/menu/Menu";
+> 5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+https://nextjs.org/docs/messages/module-not-found
+[02:19:45.183] Browser ERROR   ./src/app/(main)/layout.tsx:4:1
+Module not found: Can't resolve '../components/menu/Menu'
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import Menu from "../components/menu/Menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+  6 |
+  7 | const geistSans = Geist({
+
+https://nextjs.org/docs/messages/module-not-found
+[02:19:45.183] Browser ERROR   ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve '../app/globals.css'
+  1 | import Image from "next/image";
+> 2 | import "../app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[02:19:45.183] Browser ERROR   ./src/app/(main)/layout.tsx:5:1
+Module not found: Can't resolve '../components/maintenance/ConstructionPage'
+  3 | import "./globals.css";
+  4 | import Menu from "../components/menu/Menu";
+> 5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+https://nextjs.org/docs/messages/module-not-found
+[02:19:45.183] Browser ERROR   ./src/app/(main)/layout.tsx:4:1
+Module not found: Can't resolve '../components/menu/Menu'
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import Menu from "../components/menu/Menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+  6 |
+  7 | const geistSans = Geist({
+
+https://nextjs.org/docs/messages/module-not-found
+[02:19:45.183] Browser ERROR   ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve '../app/globals.css'
+  1 | import Image from "next/image";
+> 2 | import "../app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[02:19:45.183] Browser ERROR   ./src/app/(main)/layout.tsx:5:1
+Module not found: Can't resolve '../components/maintenance/ConstructionPage'
+  3 | import "./globals.css";
+  4 | import Menu from "../components/menu/Menu";
+> 5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+https://nextjs.org/docs/messages/module-not-found
+[02:19:45.183] Browser ERROR   ./src/app/(main)/layout.tsx:4:1
+Module not found: Can't resolve '../components/menu/Menu'
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import Menu from "../components/menu/Menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+  6 |
+  7 | const geistSans = Geist({
+
+https://nextjs.org/docs/messages/module-not-found
+[02:19:45.183] Browser ERROR   ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve '../app/globals.css'
+  1 | import Image from "next/image";
+> 2 | import "../app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[02:19:45.183] Browser ERROR   ./src/app/(main)/layout.tsx:5:1
+Module not found: Can't resolve '../components/maintenance/ConstructionPage'
+  3 | import "./globals.css";
+  4 | import Menu from "../components/menu/Menu";
+> 5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+https://nextjs.org/docs/messages/module-not-found
+[02:19:45.183] Browser ERROR   ./src/app/(main)/layout.tsx:4:1
+Module not found: Can't resolve '../components/menu/Menu'
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import Menu from "../components/menu/Menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+  6 |
+  7 | const geistSans = Geist({
+
+https://nextjs.org/docs/messages/module-not-found
+[02:19:45.183] Browser ERROR   ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve '../app/globals.css'
+  1 | import Image from "next/image";
+> 2 | import "../app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[02:19:45.183] Browser ERROR   ./src/app/(main)/layout.tsx:5:1
+Module not found: Can't resolve '../components/maintenance/ConstructionPage'
+  3 | import "./globals.css";
+  4 | import Menu from "../components/menu/Menu";
+> 5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+https://nextjs.org/docs/messages/module-not-found
+[02:19:45.183] Browser ERROR   ./src/app/(main)/layout.tsx:4:1
+Module not found: Can't resolve '../components/menu/Menu'
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import Menu from "../components/menu/Menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+  6 |
+  7 | const geistSans = Geist({
+
+https://nextjs.org/docs/messages/module-not-found
+[02:19:46.792] Server  ERROR    ⨯ ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve '../app/globals.css'
+  1 | import Image from "next/image";
+> 2 | import "../app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:19:46.797] Server  ERROR    ⨯ ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve '../app/globals.css'
+  1 | import Image from "next/image";
+> 2 | import "../app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:19:46.800] Server  ERROR    ⨯ ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve '../app/globals.css'
+  1 | import Image from "next/image";
+> 2 | import "../app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:19:46.807] Server  ERROR    ⨯ ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve '../app/globals.css'
+  1 | import Image from "next/image";
+> 2 | import "../app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:19:46.932] Browser ERROR   ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve '../app/globals.css'
+  1 | import Image from "next/image";
+> 2 | import "../app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[02:19:59.947] Server  ERROR    ⨯ ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve '../app/globals.css'
+  1 | import Image from "next/image";
+> 2 | import "../app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:20:00.064] Browser ERROR   ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve '../app/globals.css'
+  1 | import Image from "next/image";
+> 2 | import "../app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[02:20:00.918] Server  ERROR    ⨯ ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve '../app/globals.css'
+  1 | import Image from "next/image";
+> 2 | import "../app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:20:02.023] Browser ERROR   ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve '../app/globals.css'
+  1 | import Image from "next/image";
+> 2 | import "../app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[02:20:02.460] Browser ERROR   ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve '../app/globals.css'
+  1 | import Image from "next/image";
+> 2 | import "../app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[02:20:03.061] Server  LOG      ○ Compiling /_error ...
+[02:20:05.182] Browser ERROR   ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve '../app/globals.css'
+  1 | import Image from "next/image";
+> 2 | import "../app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[02:20:05.830] Browser ERROR   uncaughtError: Error: ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve '../app/globals.css'
+  1 | import Image from "next/image";
+> 2 | import "../app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:20:06.083] Browser ERROR   ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve '../app/globals.css'
+  1 | import Image from "next/image";
+> 2 | import "../app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[02:20:06.231] Browser ERROR   ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve '../app/globals.css'
+  1 | import Image from "next/image";
+> 2 | import "../app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[02:20:06.729] Server  ERROR    ⨯ ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve '../app/globals.css'
+  1 | import Image from "next/image";
+> 2 | import "../app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:20:06.731] Server  ERROR    ⨯ ./src/app/(main)/layout.tsx:3:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../../components/menu/Menu";
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:20:06.884] Browser ERROR   ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve '../app/globals.css'
+  1 | import Image from "next/image";
+> 2 | import "../app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[02:20:06.885] Browser ERROR   ./src/app/(main)/layout.tsx:3:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../../components/menu/Menu";
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[02:20:31.154] Server  ERROR    ⨯ ./src/app/(main)/layout.tsx:3:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../../components/menu/Menu";
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./src/app/(main)/layout.tsx
+    ./src/app/(main)/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:20:31.304] Browser ERROR   ./src/app/(main)/layout.tsx:3:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../../components/menu/Menu";
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+
+Import trace:
+  Server Component:
+    ./src/app/(main)/layout.tsx
+    ./src/app/(main)/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[02:20:54.425] Server  LOG      ✓ Compiled in 70ms
+[02:20:55.837] Server  LOG      ✓ Compiled in 175ms
+[02:20:56.599] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[02:20:56.910] Browser WARN    Image with src "/logo1.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[02:20:56.910] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:20:59.773] Browser WARN    Image with src "/logo1.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[02:20:59.773] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:21:03.669] Browser WARN    Image with src "/LogoTriangulo.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[02:21:25.264] Server  ERROR    ⨯ ./src/app/(main)/layout.tsx:3:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../../components/menu/Menu";
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:25.268] Server  ERROR    ⨯ ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import Image from "next/image";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:25.338] Server  ERROR    ⨯ ./src/app/(main)/layout.tsx:3:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../../components/menu/Menu";
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:25.344] Server  ERROR    ⨯ ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import Image from "next/image";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:25.347] Server  ERROR    ⨯ ./src/app/(main)/layout.tsx:3:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../../components/menu/Menu";
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:25.351] Server  ERROR    ⨯ ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import Image from "next/image";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:25.353] Server  ERROR    ⨯ ./src/app/(main)/layout.tsx:3:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../../components/menu/Menu";
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:25.356] Server  ERROR    ⨯ ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import Image from "next/image";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:25.358] Server  ERROR    ⨯ ./src/app/(main)/layout.tsx:3:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../../components/menu/Menu";
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:25.360] Server  ERROR    ⨯ ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import Image from "next/image";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:25.490] Browser ERROR   ./src/app/(main)/layout.tsx:3:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../../components/menu/Menu";
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[02:21:25.490] Browser ERROR   ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import Image from "next/image";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[02:21:26.152] Browser ERROR   ./src/app/(main)/layout.tsx:3:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../../components/menu/Menu";
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[02:21:26.152] Browser ERROR   ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import Image from "next/image";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[02:21:31.359] Browser ERROR   ./src/app/(main)/layout.tsx:3:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../../components/menu/Menu";
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[02:21:31.359] Browser ERROR   ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import Image from "next/image";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[02:21:31.359] Browser ERROR   ./src/app/(main)/layout.tsx:3:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../../components/menu/Menu";
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[02:21:31.359] Browser ERROR   ./src/app/(main)/page.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import Image from "next/image";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SincronarioCard from "@/components/SincronarioCard";
+  4 |
+  5 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[02:21:49.221] Server  ERROR    ⨯ ./src/app/(main)/layout.tsx:3:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../../components/menu/Menu";
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:49.226] Server  ERROR    ⨯ ./src/app/(main)/layout.tsx:3:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../../components/menu/Menu";
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:49.232] Server  ERROR    ⨯ ./src/app/(main)/layout.tsx:3:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../../components/menu/Menu";
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:49.238] Server  ERROR    ⨯ ./src/app/(main)/layout.tsx:3:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../../components/menu/Menu";
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:49.242] Server  ERROR    ⨯ ./src/app/(main)/layout.tsx:3:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../../components/menu/Menu";
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:49.369] Browser ERROR   ./src/app/(main)/layout.tsx:3:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../../components/menu/Menu";
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[02:21:56.597] Server  LOG      ✓ Compiled in 131ms
+[02:22:04.688] Browser WARN    Image with src "/logo1.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[02:22:04.688] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:22:06.797] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:22:26.089] Browser WARN    Image with src "/logo1.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[02:22:26.089] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:29:41.815] Server  ERROR    ⨯ ./src/app/layout.tsx:5:1
+Module not found: Can't resolve '../../components/maintenance/ConstructionPage'
+  3 | import "../globals.css";
+  4 | import Menu from "../../components/menu/Menu";
+> 5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:29:41.828] Server  ERROR    ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '../../components/menu/Menu'
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+  3 | import "../globals.css";
+> 4 | import Menu from "../../components/menu/Menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+  7 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:29:41.854] Server  ERROR    ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '../../components/menu/Menu'
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+  3 | import "../globals.css";
+> 4 | import Menu from "../../components/menu/Menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+  7 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:29:41.878] Server  ERROR    ⨯ ./src/app/layout.tsx:3:1
+Module not found: Can't resolve '../globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "../globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../../components/menu/Menu";
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:29:41.907] Server  ERROR    ⨯ ./src/app/layout.tsx:5:1
+Module not found: Can't resolve '../../components/maintenance/ConstructionPage'
+  3 | import "../globals.css";
+  4 | import Menu from "../../components/menu/Menu";
+> 5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:29:41.914] Server  ERROR    ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '../../components/menu/Menu'
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+  3 | import "../globals.css";
+> 4 | import Menu from "../../components/menu/Menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+  7 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:29:42.024] Server  ERROR    ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '../../components/menu/Menu'
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+  3 | import "../globals.css";
+> 4 | import Menu from "../../components/menu/Menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+  7 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:29:42.060] Server  ERROR    ⨯ ./src/app/layout.tsx:3:1
+Module not found: Can't resolve '../globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "../globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../../components/menu/Menu";
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:29:42.109] Server  ERROR    ⨯ ./src/app/layout.tsx:5:1
+Module not found: Can't resolve '../../components/maintenance/ConstructionPage'
+  3 | import "../globals.css";
+  4 | import Menu from "../../components/menu/Menu";
+> 5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:29:42.127] Server  ERROR    ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '../../components/menu/Menu'
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+  3 | import "../globals.css";
+> 4 | import Menu from "../../components/menu/Menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+  7 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:29:42.149] Server  ERROR    ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '../../components/menu/Menu'
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+  3 | import "../globals.css";
+> 4 | import Menu from "../../components/menu/Menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+  7 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:29:42.163] Server  ERROR    ⨯ ./src/app/layout.tsx:3:1
+Module not found: Can't resolve '../globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "../globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../../components/menu/Menu";
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:29:42.179] Server  ERROR    ⨯ ./src/app/layout.tsx:5:1
+Module not found: Can't resolve '../../components/maintenance/ConstructionPage'
+  3 | import "../globals.css";
+  4 | import Menu from "../../components/menu/Menu";
+> 5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:29:42.183] Server  ERROR    ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '../../components/menu/Menu'
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+  3 | import "../globals.css";
+> 4 | import Menu from "../../components/menu/Menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+  7 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:29:42.198] Server  ERROR    ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '../../components/menu/Menu'
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+  3 | import "../globals.css";
+> 4 | import Menu from "../../components/menu/Menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+  7 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:29:42.210] Server  ERROR    ⨯ ./src/app/layout.tsx:3:1
+Module not found: Can't resolve '../globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "../globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../../components/menu/Menu";
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:29:42.216] Server  ERROR    ⨯ ./src/app/layout.tsx:5:1
+Module not found: Can't resolve '../../components/maintenance/ConstructionPage'
+  3 | import "../globals.css";
+  4 | import Menu from "../../components/menu/Menu";
+> 5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:29:42.220] Server  ERROR    ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '../../components/menu/Menu'
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+  3 | import "../globals.css";
+> 4 | import Menu from "../../components/menu/Menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+  7 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:29:42.225] Server  ERROR    ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '../../components/menu/Menu'
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+  3 | import "../globals.css";
+> 4 | import Menu from "../../components/menu/Menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+  7 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:29:42.229] Server  ERROR    ⨯ ./src/app/layout.tsx:3:1
+Module not found: Can't resolve '../globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "../globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../../components/menu/Menu";
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:29:42.233] Server  ERROR    ⨯ ./src/app/layout.tsx:5:1
+Module not found: Can't resolve '../../components/maintenance/ConstructionPage'
+  3 | import "../globals.css";
+  4 | import Menu from "../../components/menu/Menu";
+> 5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:29:42.240] Server  ERROR    ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '../../components/menu/Menu'
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+  3 | import "../globals.css";
+> 4 | import Menu from "../../components/menu/Menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+  7 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:29:42.252] Server  ERROR    ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '../../components/menu/Menu'
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+  3 | import "../globals.css";
+> 4 | import Menu from "../../components/menu/Menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+  7 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:29:42.263] Server  ERROR    ⨯ ./src/app/layout.tsx:3:1
+Module not found: Can't resolve '../globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "../globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../../components/menu/Menu";
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:29:42.286] Server  LOG      ✓ Compiled in 1114ms
+[02:29:42.728] Browser ERROR   ./src/app/layout.tsx:5:1
+Module not found: Can't resolve '../../components/maintenance/ConstructionPage'
+  3 | import "../globals.css";
+  4 | import Menu from "../../components/menu/Menu";
+> 5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+https://nextjs.org/docs/messages/module-not-found
+[02:29:42.728] Browser ERROR   ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '../../components/menu/Menu'
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+  3 | import "../globals.css";
+> 4 | import Menu from "../../components/menu/Menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+  7 | const geistSans = Geist({
+
+https://nextjs.org/docs/messages/module-not-found
+[02:29:42.728] Browser ERROR   ./src/app/layout.tsx:3:1
+Module not found: Can't resolve '../globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "../globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../../components/menu/Menu";
+  5 | import ConstructionPage from "../../components/maintenance/ConstructionPage";
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[02:29:45.635] Server  ERROR    ⨯ ./src/app/layout.tsx:3:1
+Module not found: Can't resolve '../globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "../globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../components/menu/Menu";
+  5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:29:45.788] Server  ERROR    ⨯ ./src/app/layout.tsx:3:1
+Module not found: Can't resolve '../globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "../globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../components/menu/Menu";
+  5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:29:45.827] Server  ERROR    ⨯ ./src/app/layout.tsx:3:1
+Module not found: Can't resolve '../globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "../globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../components/menu/Menu";
+  5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:29:45.835] Server  ERROR    ⨯ ./src/app/layout.tsx:3:1
+Module not found: Can't resolve '../globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "../globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../components/menu/Menu";
+  5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:29:45.847] Server  ERROR    ⨯ ./src/app/layout.tsx:3:1
+Module not found: Can't resolve '../globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "../globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../components/menu/Menu";
+  5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:29:45.855] Server  ERROR    ⨯ ./src/app/layout.tsx:3:1
+Module not found: Can't resolve '../globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "../globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../components/menu/Menu";
+  5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:29:45.989] Browser ERROR   ./src/app/layout.tsx:3:1
+Module not found: Can't resolve '../globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "../globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../components/menu/Menu";
+  5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[02:29:48.248] Server  ERROR    ⨯ ./src/app/layout.tsx:3:1
+Module not found: Can't resolve '../globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "../globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../components/menu/Menu";
+  5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:29:48.679] Browser ERROR   uncaughtError: Error: ./src/app/layout.tsx:3:1
+Module not found: Can't resolve '../globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "../globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../components/menu/Menu";
+  5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:29:48.965] Browser ERROR   ./src/app/layout.tsx:3:1
+Module not found: Can't resolve '../globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "../globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../components/menu/Menu";
+  5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[02:29:48.965] Browser ERROR   ./src/app/layout.tsx:3:1
+Module not found: Can't resolve '../globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "../globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../components/menu/Menu";
+  5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[02:29:48.965] Browser ERROR   ./src/app/layout.tsx:3:1
+Module not found: Can't resolve '../globals.css'
+  1 | import type { Metadata } from "next";
+  2 | import { Geist, Geist_Mono, Pompiere } from "next/font/google";
+> 3 | import "../globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Menu from "../components/menu/Menu";
+  5 | import ConstructionPage from "../components/maintenance/ConstructionPage";
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[02:29:55.146] Server  LOG      ✓ Compiled in 81ms
+[02:29:56.425] Browser WARN    Image with src "/logo1.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[02:29:56.425] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:30:20.056] Server  LOG      ✓ Compiled in 228ms
+[02:30:25.310] Browser WARN    Image with src "http://localhost:3000/LogoTriangulo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:49:58.201] Browser WARN    Image with src "/logo1.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[02:49:58.201] Browser WARN    Image with src "/logo1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:50:00.035] Browser WARN    Image with src "http://localhost:3000/LogoTriangulo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.

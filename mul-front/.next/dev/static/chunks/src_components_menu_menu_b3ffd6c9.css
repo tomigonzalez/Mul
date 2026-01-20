@@ -1,0 +1,87 @@
+/* [project]/src/components/menu/menu.css [app-client] (css) */
+.menu-item:hover {
+  height: auto;
+}
+
+.menu-item {
+  overflow: visible;
+}
+
+.menu-item:before {
+  content: "";
+  transform-origin: 0 0;
+  background: #fff;
+  width: 4px;
+  height: 28px;
+  transition: background .3s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: skewX(30deg);
+}
+
+.menu-item.has-children:after {
+  content: "";
+  background: #fff;
+  width: 3.999px;
+  height: 0;
+  transition: height .35s;
+  position: absolute;
+  top: 28px;
+  left: 16.5px;
+}
+
+.menu-item:hover:before, .menu-item:hover:after {
+  background: #ff0;
+}
+
+.menu-item.has-children:hover:after {
+  height: var(--submenu-height);
+}
+
+.submenu {
+  z-index: 22;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px;
+  display: none;
+  position: absolute;
+}
+
+.menu-item:hover .submenu {
+  display: flex;
+}
+
+.menu-item.has-children:hover > .menu-link {
+  border-bottom-color: #0000 !important;
+}
+
+.menu-item:not(.has-children):hover > .menu-link {
+  border-bottom-color: #ff0 !important;
+}
+
+.overlay {
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  z-index: 10;
+  pointer-events: none;
+  opacity: 0;
+  background-color: #0003;
+  width: 100vw;
+  height: 100vh;
+  transition: opacity .3s;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.overlay.active {
+  opacity: 1;
+}
+
+.menu-item:hover .submenu {
+  z-index: 30;
+  display: flex;
+}
+
+/*# sourceMappingURL=src_components_menu_menu_b3ffd6c9.css.map*/
