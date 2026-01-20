@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 const pompier = Pompiere({
   subsets: ["latin"],
-  weight: ["400"], // Pompier solo tiene peso 400
+  weight: ["400"], // Pompier solo tiene peso 40
   variable: "--font-pompier", // Crea una variable CSS para usarla
 });
 
