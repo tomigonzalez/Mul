@@ -5,11 +5,7 @@ const menuItems = [
     id: 1,
     label: "Inicio",
     href: "/",
-    children: [
-      { label: "Inicio", href: "/" },
-      { label: "Dashboard", href: "/dashboard" },
-      { label: "Perfil", href: "/profile" }
-    ]
+    
   },
   {
     id: 2,
@@ -22,7 +18,7 @@ const menuItems = [
     label: "Productos",
     href: "/a",
    children: [
-      { label: "Inicio", href: "/" },
+      { label: "Magia sanadora", href: "/magia-sanadora" },
       { label: "Dashboard", href: "/dashboard" },
       { label: "Perfil", href: "/profile" }
     ]
