@@ -11,7 +11,7 @@ const MenuItem = ({ item }: { item: itemData }) => {
   const { label, href, children } = item;
 
   return (
-    <li
+    <div
       className={`menu-item relative pr-4 pl-4 ${
         children ? "has-children" : ""
       }`}
@@ -39,7 +39,7 @@ const MenuItem = ({ item }: { item: itemData }) => {
           ))}
         </ul>
       )}
-    </li>
+    </div>
   );
 };
 
