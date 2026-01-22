@@ -2,6 +2,7 @@ import Image from "next/image";
 import "../globals.css";
 import SincronarioCard from "@/components/SincronarioCard";
 import Menu from "@/components/menu/Menu";
+import MagiaSanadoraCard from "@/components/MagiaSanadoraCard";
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
               <SincronarioCard />
             </div>
             <div className="flex ">
-              <div className="bg-amber-500 w-60 h-42"></div>
+              <MagiaSanadoraCard />
             </div>
           </div>
         </div>
