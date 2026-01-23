@@ -5,7 +5,7 @@ type Props = {};
 
 const MagiaSanadoraCard: React.FC<Props> = () => {
   return (
-    <div className="w-80 rounded-lg border-2 border-neutral-600 p-3 text-center">
+    <div className="sm:w-80 w-66 rounded-lg border-2 border-neutral-600 p-3 text-center">
       <h3 className="mb-4 text-base font-bold">Magia sanadora</h3>
 
       <p className="mt-4 ">

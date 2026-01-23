@@ -37,54 +37,23 @@ export default function SincronarioCard() {
   });
 
   return (
-    <div
-      style={{
-        width: 320,
-        border: "2px solid #555",
-        padding: 10,
-        borderRadius: 8,
-        fontFamily: "Arial, sans-serif",
-        textAlign: "center",
-      }}
-    >
-      <h3 style={{ marginBottom: 15 }}>Sincronario de 13 Lunas</h3>
+    <div className="sm:w-80 w-66 rounded-lg border-2 border-neutral-600 p-3 text-center">
+      <h3 className="mb-4 text-base font-bold">Sincronario de 13 Lunas</h3>
 
-      {/* --- Tabla --- */}
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "1fr 1fr 1fr",
-          gap: 5,
-        }}
-      >
-        {/* Cabeceras */}
-        <div style={headerStyle}>Día</div>
-        <div style={headerStyle}>Num</div>
-        <div style={headerStyle}>Luna</div>
+      {/* Tabla */}
+      <div className="grid grid-cols-3 gap-1 text-sm">
+        {/* Headers */}
+        <div className="border border-neutral-700 font-bold">Día</div>
+        <div className="border border-neutral-700 font-bold">Num</div>
+        <div className="border border-neutral-700 font-bold">Luna</div>
 
-        {/* Valores del día */}
-        <div style={cellStyle}>{data.diaNombre}</div>
-        <div style={cellStyle}>{data.diaNumero}</div>
-        <div style={cellStyle}>{data.moon}</div>
+        {/* Values */}
+        <div className="border border-neutral-700">{data.diaNombre}</div>
+        <div className="border border-neutral-700">{data.diaNumero}</div>
+        <div className="border border-neutral-700">{data.moon}</div>
       </div>
 
-      {/* Fase lunar */}
-      <p style={{ marginTop: 15, fontWeight: "bold" }}>
-        Fase Lunar: {data.fase}
-      </p>
+      <p className="mt-4 font-bold">Fase Lunar: {data.fase}</p>
     </div>
   );
 }
-
-// --- Estilos reutilizables ---
-const headerStyle: React.CSSProperties = {
-  border: "1px solid #333",
-  padding: "5px 0",
-  fontWeight: "bold",
-  background: "#000",
-};
-
-const cellStyle: React.CSSProperties = {
-  border: "1px solid #333",
-  padding: "6px 0",
-};
