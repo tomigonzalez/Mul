@@ -66,6 +66,7 @@
 
 /* Los subitems aparecen SOLO cuando la línea baja */
 .menu-item:hover .submenu {
+  width: 50vh;
   display: flex;
 }
 
