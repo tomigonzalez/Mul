@@ -19,7 +19,7 @@ export default function Home() {
               alt="Logo"
               className="w-[350px] sm:w-[400px] md:w-[500px] h-auto"
             />
-            <h4 className="mt-4 text-sm sm:text-base">
+            <h4 className="mt-2 text-sm sm:text-xl">
               Silencio, presencia y propósito
             </h4>
           </section>
