@@ -10,7 +10,7 @@ const menuItems = [
   {
     id: 2,
     label: "Servicios",
-    href: "/dashboard",
+    href: "/servicios",
     children: [
       { label: "Sesiones AUA", href: "/sesiones-aua" },
       { label: "Magia sanadora", href: "/magia-sanadora" },
@@ -24,10 +24,10 @@ const menuItems = [
   {
     id: 3,
     label: "Productos",
-    href: "/a",
+    href: "/productos",
    children: [
-      { label: "Talismanes del Monje", href: "/talismanes-monje" },
-      { label: "Porta Sahumerios Invertidos", href: "/porta-sahumerios" }
+      { label: "Talismanes del Monje", href: "productos/talismanes-monje" },
+      { label: "Porta Sahumerios Invertidos", href: "productos/porta-sahumerios" }
     ]
   },
   {
