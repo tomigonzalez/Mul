@@ -21,7 +21,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       {/* CONTENEDOR PRINCIPAL */}
       <article className="relative bg-white w-full flex-1">
         {/* WATERMARK STICKY */}
-        {/* 'top-40' porque el header mide h-40. 'h-[calc(100vh-160px-40px)]' ajusta el alto restando header y footer */}
+
         <div className="sticky top-40 left-0 w-full h-[calc(100vh-160px-40px)] flex items-center justify-center pointer-events-none z-0 overflow-hidden">
           <Image
             src="/LogoTriangulo.svg"
