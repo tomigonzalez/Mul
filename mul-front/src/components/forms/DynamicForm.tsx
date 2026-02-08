@@ -1,22 +1,32 @@
 "use client";
-import { useState } from "react";
+
+import { useMemo } from "react";
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
 import FieldRenderer from "./FieldRenderer";
+import { buildZodFromForm } from "./buildZodFromForm";
 
 export default function DynamicForm({ form }: { form: any }) {
-  const [data, setData] = useState<Record<string, any>>({});
+  const schema = useMemo(() => buildZodFromForm(form), [form]);
 
-  const handleChange = (name: string, value: any) => {
-    setData((prev) => ({ ...prev, [name]: value }));
-  };
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm({
+    resolver: zodResolver(schema),
+  });
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
+  const onSubmit = (data: any) => {
     console.log("FORM DATA:", data);
-    alert("Formulario enviado (ver consola)");
+    alert("Formulario válido ✅");
   };
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-10 p-10 max-w-3xl mx-auto">
+    <form
+      onSubmit={handleSubmit(onSubmit)}
+      className="space-y-10 p-10 max-w-3xl mx-auto"
+    >
       <h1 className="text-3xl font-bold">{form.title}</h1>
       <p>{form.description}</p>
 
@@ -28,11 +38,13 @@ export default function DynamicForm({ form }: { form: any }) {
             <div key={field.name} className="flex flex-col gap-1">
               <label className="font-medium">{field.label}</label>
 
-              <FieldRenderer
-                field={field}
-                value={data[field.name]}
-                onChange={handleChange}
-              />
+              <FieldRenderer field={field} register={register} />
+
+              {errors[field.name] && (
+                <small className="text-red-500">
+                  {errors[field.name]?.message as string}
+                </small>
+              )}
 
               {field.help && (
                 <small className="text-gray-500">{field.help}</small>
@@ -42,7 +54,7 @@ export default function DynamicForm({ form }: { form: any }) {
         </div>
       ))}
 
-      <button type="submit" className="bg-black text-white px-6 py-3 rounded">
+      <button className="bg-black text-white px-6 py-3 rounded">
         {form.submitLabel}
       </button>
     </form>

@@ -1,34 +1,20 @@
 "use client";
 
-type Props = {
-  field: any;
-  value: any;
-  onChange: (name: string, value: any) => void;
-};
-
-export default function FieldRenderer({ field, value, onChange }: Props) {
-  const commonProps = {
-    name: field.name,
-    required: field.required,
+export default function FieldRenderer({ field, register }: any) {
+  const base = {
     className: "border p-2 rounded",
+    placeholder: field.placeholder,
+    defaultValue: field.defaultValue,
+    readOnly: field.readOnly,
   };
 
   switch (field.type) {
     case "textarea":
-      return (
-        <textarea
-          {...commonProps}
-          placeholder={field.placeholder}
-          onChange={(e) => onChange(field.name, e.target.value)}
-        />
-      );
+      return <textarea {...base} {...register(field.name)} />;
 
     case "select":
       return (
-        <select
-          {...commonProps}
-          onChange={(e) => onChange(field.name, e.target.value)}
-        >
+        <select {...base} {...register(field.name)}>
           <option value="">Seleccionar</option>
           {field.options.map((opt: string) => (
             <option key={opt} value={opt}>
@@ -39,12 +25,7 @@ export default function FieldRenderer({ field, value, onChange }: Props) {
       );
 
     case "checkbox":
-      return (
-        <input
-          type="checkbox"
-          onChange={(e) => onChange(field.name, e.target.checked)}
-        />
-      );
+      return <input type="checkbox" {...register(field.name)} />;
 
     case "range":
       return (
@@ -52,26 +33,23 @@ export default function FieldRenderer({ field, value, onChange }: Props) {
           type="range"
           min={field.min}
           max={field.max}
-          onChange={(e) => onChange(field.name, e.target.value)}
+          {...register(field.name, { valueAsNumber: true })}
+        />
+      );
+
+    case "number":
+      return (
+        <input
+          type="number"
+          {...base}
+          {...register(field.name, { valueAsNumber: true })}
         />
       );
 
     case "file":
-      return (
-        <input
-          type="file"
-          onChange={(e) => onChange(field.name, e.target.files?.[0])}
-        />
-      );
+      return <input type="file" {...register(field.name)} />;
 
     default:
-      return (
-        <input
-          type={field.type}
-          {...commonProps}
-          placeholder={field.placeholder}
-          onChange={(e) => onChange(field.name, e.target.value)}
-        />
-      );
+      return <input type={field.type} {...base} {...register(field.name)} />;
   }
 }
