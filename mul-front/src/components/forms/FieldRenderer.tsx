@@ -3,16 +3,18 @@
 export default function FieldRenderer({ field, register }: any) {
   const base = {
     className: "border p-2 rounded",
-    ...register(field.name),
+    placeholder: field.placeholder,
+    defaultValue: field.defaultValue,
+    readOnly: field.readOnly,
   };
 
   switch (field.type) {
     case "textarea":
-      return <textarea {...base} placeholder={field.placeholder} />;
+      return <textarea {...base} {...register(field.name)} />;
 
     case "select":
       return (
-        <select {...base}>
+        <select {...base} {...register(field.name)}>
           <option value="">Seleccionar</option>
           {field.options.map((opt: string) => (
             <option key={opt} value={opt}>
@@ -35,12 +37,19 @@ export default function FieldRenderer({ field, register }: any) {
         />
       );
 
+    case "number":
+      return (
+        <input
+          type="number"
+          {...base}
+          {...register(field.name, { valueAsNumber: true })}
+        />
+      );
+
     case "file":
       return <input type="file" {...register(field.name)} />;
 
     default:
-      return (
-        <input type={field.type} {...base} placeholder={field.placeholder} />
-      );
+      return <input type={field.type} {...base} {...register(field.name)} />;
   }
 }
