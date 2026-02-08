@@ -55,7 +55,7 @@ const MenuHamburguesa = () => {
                   <Link
                     href={item.href}
                     onClick={closeMenu}
-                    className="block w-full font-semibold"
+                    className="block w-full pointer hover:text-yellow-400 font-semibold"
                   >
                     {item.label}
                   </Link>
@@ -64,7 +64,7 @@ const MenuHamburguesa = () => {
                     onClick={() =>
                       setOpenSub(openSub === item.label ? null : item.label)
                     }
-                    className="w-full font-semibold"
+                    className="w-full font-semibold cursor-pointer hover:text-yellow-400"
                   >
                     {item.label}
                   </button>
@@ -73,7 +73,7 @@ const MenuHamburguesa = () => {
                 {/* SUBMENU */}
                 {item.children && (
                   <div
-                    className={`overflow-hidden transition-all duration-300
+                    className={`overflow-hidden transition-all duration-300 
                     ${
                       openSub === item.label
                         ? "max-h-40 opacity-100 mt-2"
@@ -86,7 +86,7 @@ const MenuHamburguesa = () => {
                           <Link
                             href={child.href}
                             onClick={closeMenu}
-                            className="block"
+                            className="block cursor-pointer hover:text-yellow-400"
                           >
                             {child.label}
                           </Link>
