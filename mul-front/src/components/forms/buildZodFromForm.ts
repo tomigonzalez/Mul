@@ -21,22 +21,19 @@ export function buildZodFromForm(form: any) {
 
         case "number":
         case "range":
-          schema = z.coerce.number({
-            required_error: "Requerido",
-          });
-
+          schema = z.coerce.number();
           if (field.min !== undefined) schema = schema.min(field.min);
           if (field.max !== undefined) schema = schema.max(field.max);
           break;
 
         case "select":
-          schema = z.enum(field.options);
+          schema = z.enum(field.options as [string, ...string[]]);
           break;
 
         case "checkbox":
           schema = field.required
-            ? z.literal(true, {
-                errorMap: () => ({ message: "Debes aceptar" }),
+            ? z.boolean().refine(v => v === true, {
+                message: "Debes aceptar",
               })
             : z.boolean().optional();
           break;
@@ -50,7 +47,6 @@ export function buildZodFromForm(form: any) {
           if (field.required) schema = schema.min(1, "Requerido");
       }
 
-      // 👇 si NO es requerido → optional
       if (!field.required && field.type !== "checkbox") {
         schema = schema.optional();
       }
