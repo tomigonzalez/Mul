@@ -1,10 +1,11 @@
+import { audioSubliminalForm } from "./audioSubliminal";
 import { magiaSanadoraForm } from "./magiaSanadora";
 import { sesionAuaForm } from "./sesionAua";
 
 export const formsMap = {
   "magia-sanadora": magiaSanadoraForm,
   "ritual-personalizado": sesionAuaForm,
-  "cartografia-sintoma": magiaSanadoraForm,
+  "audios-personalizados": audioSubliminalForm,
   "sesiones-aua": sesionAuaForm,
 
 } as const;

@@ -11,6 +11,9 @@ export function buildZodFromForm(form: any) {
         case "text":
         case "textarea":
           schema = z.string();
+          if (field.minLength) schema = schema.min(field.minLength);
+          if (field.maxLength) schema = schema.max(field.maxLength);
+
           if (field.required) schema = schema.min(1, "Requerido");
           break;
 
