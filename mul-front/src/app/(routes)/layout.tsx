@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -39,7 +40,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       </article>
 
       {/* FOOTER */}
-      <div className="bg-black w-full h-10 px-10 flex shrink-0"></div>
+      <div className="bg-black w-full h-10 px-10 flex shrink-0">
+        <Footer />
+      </div>
     </section>
   );
 }

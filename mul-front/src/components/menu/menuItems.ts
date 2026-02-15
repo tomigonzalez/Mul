@@ -1,5 +1,3 @@
-// menu-items.js
-
 const menuItems = [
   {
     id: 1,
