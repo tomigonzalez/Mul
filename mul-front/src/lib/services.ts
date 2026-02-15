@@ -31,7 +31,21 @@ export const services: Service[] = [
     seoTitle: "Magia Sanadora | Sesión energética",
     seoDescription: "Servicio de armonización energética y liberación de bloqueos.",
   },
+{
+  slug: "audios-personalizados",
+  title: "Audios Subliminales Personalizados",
+  description:
+    "Audios subliminales creados específicamente según tu objetivo, intención y contexto personal.",
 
+  formKey: "audios-personalizados",
+
+  active: true,
+  showInMenu: true,
+  order: 5,
+
+  seoTitle: "Audio Subliminal Personalizado",
+  seoDescription: "Audio subliminal diseñado a medida según tu intención.",
+},
   {
     slug: "ritual-personalizado",
     title: "Ritual Personalizado",

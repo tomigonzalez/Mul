@@ -24,7 +24,7 @@ const MenuHamburguesa = () => {
       {/* Botón */}
       <button
         onClick={() => setOpen(true)}
-        className="md:hidden text-3xl z-30"
+        className="md:hidden text-3xl z-30 hover:text-yellow-300 cursor-pointer"
         aria-label="Abrir menú"
       >
         ☰
@@ -42,7 +42,10 @@ const MenuHamburguesa = () => {
         {/* Menú */}
         <nav className="relative z-30 w-full h-full bg-black/60 backdrop-blur-sm p-6 text-white">
           <div className="flex justify-end mb-4">
-            <button onClick={closeMenu} className="text-2xl">
+            <button
+              onClick={closeMenu}
+              className="text-2xl cursor-pointer hover:text-red-600"
+            >
               ✕
             </button>
           </div>

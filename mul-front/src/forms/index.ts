@@ -4,9 +4,11 @@ import { sesionAuaForm } from "./sesionAua";
 
 export const formsMap = {
   "magia-sanadora": magiaSanadoraForm,
-  "ritual-personalizado": sesionAuaForm,
-  "audios-personalizados": audioSubliminalForm,
   "sesiones-aua": sesionAuaForm,
+   "audios-personalizados": audioSubliminalForm,
+  "ritual-personalizado": sesionAuaForm,
+ 
+
 
 } as const;
 export type FormKey = keyof typeof formsMap;
