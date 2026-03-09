@@ -18,9 +18,9 @@ export default async function ServicePage({
   const form = formsMap[service.formKey];
 
   return (
-    <div className="h-auto max-w-6xl flex flex-col justify-center font-pompier-custom">
-      <h1 className="text-4xl font-bold">{service.title}</h1>
-      <p className="text-4xl ">{service.description}</p>
+    <div className="h-auto w-full max-w-6xl flex flex-col justify-center font-pompier-custom">
+      <h1 className="text-4xl font-bold p-4">{service.title}</h1>
+      <p className="text-3xl p-4">{service.description}</p>
       <DynamicForm form={form} />
     </div>
   );
