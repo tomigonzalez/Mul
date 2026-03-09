@@ -34,7 +34,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         </div>
 
         {/* CHILDREN (Margen negativo para subir el contenido sobre la marca de agua) */}
-        <div className="relative z-10 w-full -mt-[calc(100vh-160px-40px)]">
+        <div className="relative justify-items-center text-black z-10 w-full -mt-[calc(100vh-160px-40px)]">
           {children}
         </div>
       </article>

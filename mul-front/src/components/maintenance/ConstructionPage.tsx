@@ -1,15 +1,8 @@
 import Image from "next/image";
 import LogoTriangulo from "./LogoTriangulo";
 import { MessageCircle } from "lucide-react";
-// import { MessageCircle } from "lucide-react"; // Ya no es necesario para el botón flotante
 
 const ConstructionPage = () => {
-  // En un entorno de desarrollo real, el código QR (que es una imagen en el diseño final)
-  // debería ser cargado como un archivo, por ejemplo, '/qr-whatsapp.png'
-  // Si no tienes el QR como archivo de imagen, este código usará el texto de la URL de WhatsApp.
-  // Asumiendo que 'image_8212eb.png' es la imagen que contiene el QR.
-  // Pero para replicar el *diseño* lo haremos usando la estructura.
-
   return (
     <div className="w-full min-h-screen bg-black text-white flex flex-col items-center justify-start py-8 px-4 md:px-10">
       <div className="w-full flex justify-end mb-10 md:mb-10">

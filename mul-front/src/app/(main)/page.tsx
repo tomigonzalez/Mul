@@ -7,7 +7,7 @@ import MagiaSanadoraCard from "@/components/MagiaSanadoraCard";
 export default function Home() {
   return (
     <>
-      <main className="min-h-screen bg-black font-sans justify-center flex flex-col  sm:pr-10 sm:pl-10">
+      <main className="min-h-screen bg-black font-sans justify-center flex flex-col  sm:pr-10 sm:pl-10 ">
         <Menu />
         <div className="w-full bg-white dark:bg-black flex flex-col items-center">
           {/* HERO */}
@@ -19,7 +19,7 @@ export default function Home() {
               alt="Logo"
               className="w-[350px] sm:w-[400px] md:w-[500px] h-auto"
             />
-            <h4 className="mt-2 text-sm sm:text-xl">
+            <h4 className="mt-2 text-xl sm:text-3xl font-pompier-custom">
               Silencio, presencia y propósito
             </h4>
           </section>

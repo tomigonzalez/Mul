@@ -25,18 +25,18 @@ export default function DynamicForm({ form }: { form: any }) {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="space-y-10 p-10 max-w-3xl mx-auto"
+      className="space-y-10 p-10 w-full mx-auto"
     >
-      <h1 className="text-3xl font-bold">{form.title}</h1>
-      <p>{form.description}</p>
+      <h1 className="text-4xl font-bold">{form.title}</h1>
+      <p className="text-3xl">{form.description}</p>
 
       {form.sections.map((section: any) => (
         <div key={section.id} className="space-y-4">
-          <h2 className="text-xl font-semibold">{section.title}</h2>
+          <h2 className="text-3xl font-semibold ">{section.title}</h2>
 
           {section.fields.map((field: any) => (
             <div key={field.name} className="flex flex-col gap-1">
-              <label className="font-medium">{field.label}</label>
+              <label className="font-medium text-3xl">{field.label}</label>
 
               <FieldRenderer field={field} register={register} />
 
