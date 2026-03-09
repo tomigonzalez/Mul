@@ -2,7 +2,7 @@
 
 export default function FieldRenderer({ field, register }: any) {
   const base = {
-    className: "border p-2 rounded",
+    className: "border p-2 rounded text-xl",
     placeholder: field.placeholder,
     defaultValue: field.defaultValue,
     readOnly: field.readOnly,
