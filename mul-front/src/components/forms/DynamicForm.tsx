@@ -36,7 +36,7 @@ export default function DynamicForm({ form }: { form: any }) {
 
           {section.fields.map((field: any) => (
             <div key={field.name} className="flex flex-col gap-1">
-              <label className="font-medium text-3xl">{field.label}</label>
+              <label className="font-medium text-2xl">{field.label}</label>
 
               <FieldRenderer field={field} register={register} />
 
